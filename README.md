@@ -30,8 +30,8 @@ The following is required to run this project:
 [AMIE](https://github.com/dig-team/amie)
 
 ## Important Notes
-RuleManager.java - need to change proper path variables in code for output files
-Main.java  	 - need set "pathToFiles" for ECJ output files
+* RuleManager.java - need to change proper path variables in code for output files
+* Main.java  	 - need set "pathToFiles" for ECJ output files
 
 ## References
 [1]L. A. Galárraga, C. Teflioudi, K. Hose, F. Suchanek, Amie: Association rule mining under incomplete evidence in ontological knowledge bases, 
