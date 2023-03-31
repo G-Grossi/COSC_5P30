@@ -26,10 +26,17 @@ The following is required to run this project:
 [ECJ-27](https://cs.gmu.edu/~eclab/projects/ecj/)
 [Apache Jena](https://jena.apache.org/download/index.cgi)
 [Eclipse](https://www.eclipse.org/downloads/packages/release/2022-12/r/eclipse-ide-java-developers)
+[YAGO2_from_AMIE](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/amie)
+[AMIE](https://github.com/dig-team/amie)
 
 ## Important Notes
 RuleManager.java - need to change proper path variables in code for output files
 Main.java  	 - need set "pathToFiles" for ECJ output files
+
+## References
+[1]L. A. Galárraga, C. Teflioudi, K. Hose, F. Suchanek, Amie: Association rule mining under incomplete evidence in ontological knowledge bases, 
+in: Proceedings of the 22nd International Conference on World Wide Web, WWW ’13, Association for Computing Machinery, 
+New York, NY, USA, 2013, p. 413–422. URL: https://doi.org/10.1145/2488388 doi:10.1145/2488388.2488425.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
