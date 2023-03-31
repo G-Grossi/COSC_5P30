@@ -1,0 +1,15 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Tree 0:
+CHR(HEADB: isCitizenOf(BODY ( VarRand ( VarRand3 ( X ,  Z ,  Z ),  VarRand3 ( Z ,  Y ,  X )), holdsPoliticalPosition(holdsPoliticalPosition(hasCapital, isLocatedIn, holdsPoliticalPosition), PRand(imports, hasOfficialLanguage)),  VarRand3 ( VarRand ( X ,  X ),  VarRand ( Y ,  Z ),  VarRand ( X ,  X ))), BODY ( VarRand ( VarRand3 ( Y ,  X ,  X ),  VarRand ( Y ,  X )), playsFor(PRand3(participatedIn, influences, hasOfficialLanguage), playsFor(hasOfficialLanguage, playsFor, isMarriedTo)),  VarRand3 ( VarRand ( Y ,  Y ),  VarRand ( Y ,  Z ),  VarRand ( Z ,  Z )))))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Tree 0:
+CHR(HEADB: isCitizenOf(BODY ( VarRand ( VarRand3 ( X ,  Z ,  Z ),  VarRand3 ( Z ,  Y ,  X )), holdsPoliticalPosition(holdsPoliticalPosition(hasCapital, isLocatedIn, holdsPoliticalPosition), PRand(imports, hasOfficialLanguage)),  VarRand3 ( VarRand ( X ,  X ),  VarRand ( Y ,  Z ),  VarRand ( X ,  X ))), BODY ( VarRand ( VarRand3 ( Y ,  X ,  X ),  VarRand ( Y ,  X )), playsFor(PRand3(participatedIn, influences, hasOfficialLanguage), playsFor(hasOfficialLanguage, playsFor, isMarriedTo)),  VarRand3 ( VarRand ( Y ,  Y ),  VarRand ( Y ,  Z ),  VarRand ( Z ,  Z )))))

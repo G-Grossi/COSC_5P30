@@ -1,0 +1,38 @@
+Strong Typing for the Rule Discovery --Gina Grossi
+
+NIL ::= (NIL_X | NIL_Y|NIL_Z)		
+NIL_X ::= X
+NIL_Y ::= Y
+NIL_Z ::= Z
+NIL_TP ::= TARGET_PREDICATE  #no longer used
+NIL_P :: = PREDICATE 
+
+BODY_ATOM := (NIL, PREDICATE, NIL)
+SINGLE_COPY_ATOM ::= (PREDICATE)
+
+HEAD_S_ATOM ::= (NIL_X, NIL_Y, SINGLE_COPY_ATOM)
+HEAD_B_ATOM ::= (BODY_ATOM,BODY_ATOM)
+HEAD_B1_ATOM ::= (BODY_ATOM)
+		
+CHR ::= (HEAD_S_ATOM|HEAD_B_ATOM)		
+
+NIL - is an index of type int used as look up into variables and predicate tables
+BODY_ATOM - adds body atom to rule based on input s,p,o (s = subject index, p = predicate index, o = object index)
+SINGLE_COPY_ATOM - adds a single body copy of the head (variables are the same as head, predicate can be different than head)
+HEAD_S_ATOM - adds a head body to the rule using the target predict and children variables NIL_X,NIL_Y, calls child SINGLE_COPY_ATOM
+HEAD_B_ATOM - adds a head body to the rule using the target predicate, and X,Y variables, has 2 children BODY_ATOMs
+HEAD_B1_ATOM - adds a head body to the rule using the target predicate, and X,Y variables, has 1 child BODY_ATOM
+CHR - root node of tree, with child HEAD_S_ATOM or HEAD_B_ATOM
+
+#NOTE to start NIL_TP is one specific target predicate but will be set randomly.
+
+*****************************************************************************************
+REFERENCE GP Text Book: 
+R. Poli, W.B Langdon,  N.F McPhee. A Field guide to Genetic Programming.
+Published via http://lulu.com and freely available at  http://www.gp-field-guide.org.uk, 2008.(With contributions by J.R.Koza)
+Based off of the Ant program language:		
+<prog> ::= <op>
+<op> ::= (if-food-ahead <op> <op>) 
+<op> ::=  (progn2 <op> <op>) 
+<op> ::= (progn3 <op> <op> <op>)
+<op> ::= (left) | (right) | (move)  

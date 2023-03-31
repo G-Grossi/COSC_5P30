@@ -1,0 +1,407 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=1
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(PRand3(hasCapital, livesIn, imports), wasBornIn(isCitizenOf, wasBornIn, influences), PRand(actedIn, hasChild)))))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(PRand3(hasCapital, livesIn, imports), wasBornIn(isCitizenOf, wasBornIn, influences), PRand(actedIn, hasChild)))))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=1
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=1
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 12
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 13
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 14
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 15
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 16
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 17
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 18
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 19
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 20
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 21
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 22
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 23
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 24
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 25
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 26
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 27
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 28
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 29
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 30
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 31
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 32
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 33
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 34
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 35
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 36
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 37
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn)))
+
+Generation: 38
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 39
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 40
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 41
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 42
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 43
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 44
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 45
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 46
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 47
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 48
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 49
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=1
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))

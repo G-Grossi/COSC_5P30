@@ -1,0 +1,407 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=1
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(PRand(directed, imports), wasBornIn(wasBornIn, dealsWith, isPoliticianOf), PRand3(isCitizenOf, worksAt, exports)))))
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(PRand(isLeaderOf, isInterestedIn), wasBornIn(holdsPoliticalPosition, wasBornIn, directed)))))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(PRand(isLeaderOf, isInterestedIn), wasBornIn(holdsPoliticalPosition, wasBornIn, directed)))))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(isInterestedIn, isLocatedIn, wasBornIn))))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(PRand(directed, imports), wasBornIn(wasBornIn, dealsWith, isPoliticianOf), wasBornIn(holdsPoliticalPosition, wasBornIn, directed)))))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(PRand(isLeaderOf, isInterestedIn), wasBornIn(holdsPoliticalPosition, wasBornIn, directed)))))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(PRand(isLeaderOf, isInterestedIn), wasBornIn(holdsPoliticalPosition, wasBornIn, directed)))))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADB: diedIn(BODY ( VarRand ( Y ,  X ), wasBornIn(livesIn, created, wasBornIn),  VarRand3 ( X ,  Y ,  Y ))))
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(wasBornIn(holdsPoliticalPosition, wasBornIn, directed), wasBornIn(wasBornIn(holdsPoliticalPosition, wasBornIn, directed), wasBornIn, directed)))))
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADB: diedIn(BODY ( VarRand ( Y ,  X ), wasBornIn(livesIn, created, wasBornIn),  VarRand3 ( X ,  Y ,  Y ))))
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(wasBornIn(isInterestedIn, isLocatedIn, wasBornIn), wasBornIn(wasBornIn(isInterestedIn, isLocatedIn, wasBornIn), PRand3(isCitizenOf, hasChild, livesIn), PRand3(isCitizenOf, worksAt, exports)), PRand3(isCitizenOf, worksAt, exports)))))
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADB: diedIn(BODY ( VarRand ( Y ,  X ), wasBornIn(livesIn, created, wasBornIn),  VarRand3 ( X ,  Y ,  Y ))))
+
+Generation: 12
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(PRand(isLeaderOf, isInterestedIn), wasBornIn(holdsPoliticalPosition, wasBornIn, directed)))))
+
+Generation: 13
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(PRand(isLeaderOf, isInterestedIn), wasBornIn(holdsPoliticalPosition, wasBornIn, directed)))))
+
+Generation: 14
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(wasBornIn(PRand(isLeaderOf, isInterestedIn), wasBornIn(holdsPoliticalPosition, wasBornIn, directed)), wasBornIn))))
+
+Generation: 15
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADB: diedIn(BODY ( VarRand ( Y ,  X ), wasBornIn(livesIn, created, wasBornIn),  VarRand3 ( X ,  Y ,  Y ))))
+
+Generation: 16
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(PRand(isLeaderOf, isInterestedIn), wasBornIn(holdsPoliticalPosition, wasBornIn, directed)))))
+
+Generation: 17
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADB: diedIn(BODY ( VarRand ( Y ,  X ), wasBornIn(livesIn, created, wasBornIn),  VarRand3 ( X ,  Y ,  Y ))))
+
+Generation: 18
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn)))
+
+Generation: 19
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=1
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(PRand(directed, imports), wasBornIn(wasBornIn, dealsWith, isPoliticianOf), PRand3(isCitizenOf, worksAt, exports)))))
+
+Generation: 20
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(wasBornIn(holdsPoliticalPosition, wasBornIn, directed), PRand3(isCitizenOf, hasChild, livesIn), PRand3(isCitizenOf, worksAt, exports)))))
+
+Generation: 21
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn)))
+
+Generation: 22
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn)))
+
+Generation: 23
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(hasChild, wasBornIn(wasBornIn, dealsWith, isPoliticianOf), PRand3(isCitizenOf, worksAt, exports)))))
+
+Generation: 24
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(wasBornIn(isInterestedIn, isLocatedIn, wasBornIn), wasBornIn(isInterestedIn, isLocatedIn, wasBornIn), PRand3(isCitizenOf, worksAt, exports)))))
+
+Generation: 25
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(wasBornIn, wasBornIn(holdsPoliticalPosition, wasBornIn, directed)))))
+
+Generation: 26
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(wasBornIn, PRand3(isCitizenOf, hasChild, livesIn)))))
+
+Generation: 27
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(wasBornIn, PRand3(isCitizenOf, hasChild, livesIn)))))
+
+Generation: 28
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADB: diedIn(BODY ( VarRand ( Y ,  X ), wasBornIn(livesIn, created, wasBornIn),  VarRand3 ( X ,  Y ,  Y ))))
+
+Generation: 29
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADB: diedIn(BODY ( VarRand ( Y ,  X ), wasBornIn(livesIn, created, wasBornIn),  VarRand3 ( X ,  Y ,  Y ))))
+
+Generation: 30
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY0: wasBornIn))
+
+Generation: 31
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(wasBornIn, PRand3(isCitizenOf, hasChild, livesIn)))))
+
+Generation: 32
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADB: diedIn(BODY ( VarRand ( Y ,  X ), wasBornIn,  VarRand3 ( X ,  Y ,  Y ))))
+
+Generation: 33
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn)))
+
+Generation: 34
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(holdsPoliticalPosition, wasBornIn, directed))))
+
+Generation: 35
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADB: diedIn(BODY ( VarRand ( Y ,  X ), wasBornIn,  VarRand3 ( X ,  Y ,  Y ))))
+
+Generation: 36
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADB: diedIn(BODY ( VarRand ( Y ,  X ), wasBornIn,  VarRand3 ( X ,  Y ,  Y ))))
+
+Generation: 37
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(wasBornIn(holdsPoliticalPosition, wasBornIn, directed), PRand3(isCitizenOf, hasChild, livesIn), wasBornIn(wasBornIn, isPoliticianOf)))))
+
+Generation: 38
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADB: diedIn(BODY ( VarRand ( Y ,  X ), wasBornIn(livesIn, created, wasBornIn),  VarRand3 ( X ,  Y ,  Y ))))
+
+Generation: 39
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn)))
+
+Generation: 40
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn)))
+
+Generation: 41
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADB: diedIn(BODY ( VarRand ( Y ,  X ), wasBornIn,  Y )))
+
+Generation: 42
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn)))
+
+Generation: 43
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn)))
+
+Generation: 44
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn)))
+
+Generation: 45
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn)))
+
+Generation: 46
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn)))
+
+Generation: 47
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn)))
+
+Generation: 48
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADB: diedIn(BODY ( VarRand ( Y ,  X ), wasBornIn,  Y )))
+
+Generation: 49
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=0
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn)))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8431115746498108 Adjusted=0.5425607509355471 Hits=1
+Tree 0:
+CHR(HEADS: diedIn(S_BODY (wasBornIn(PRand(directed, imports), wasBornIn(wasBornIn, dealsWith, isPoliticianOf), PRand3(isCitizenOf, worksAt, exports)))))

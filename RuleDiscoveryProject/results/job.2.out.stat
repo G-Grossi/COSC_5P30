@@ -1,0 +1,407 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9886499047279358 Adjusted=0.5028537188081924 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Y ,  Y ,  Z ),  VarRand ( X ,  X ),  VarRand ( Y ,  Z )), hasChild(hasChild(hasChild, worksAt, influences), PRand3(diedIn, dealsWith, playsFor)),  VarRand ( VarRand3 ( Y ,  X ,  Z ),  VarRand ( Y ,  Z )))))
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 12
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 13
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 14
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 15
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z ))), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 16
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 17
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 18
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( Z ,  Y ,  Z )))))
+
+Generation: 19
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 20
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 21
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 22
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand ( Z ,  Y ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand3 ( X ,  Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 23
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 24
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand ( Z ,  Y ), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 25
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand ( Z ,  Y ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 26
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( Z ,  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital))), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( Z ,  X ))))
+
+Generation: 27
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 28
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 29
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 30
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 31
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 32
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isKnownFor,  X )))
+
+Generation: 33
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isKnownFor,  X )))
+
+Generation: 34
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 35
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isKnownFor,  X )))
+
+Generation: 36
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isKnownFor,  X )))
+
+Generation: 37
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isKnownFor,  X )))
+
+Generation: 38
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isKnownFor,  X )))
+
+Generation: 39
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand ( Z ,  Y ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 40
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isKnownFor,  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+
+Generation: 41
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isKnownFor,  X )))
+
+Generation: 42
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY0: isMarriedTo))
+
+Generation: 43
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY0: isMarriedTo))
+
+Generation: 44
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY0: isMarriedTo))
+
+Generation: 45
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY0: isMarriedTo))
+
+Generation: 46
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY0: isMarriedTo))
+
+Generation: 47
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY0: isMarriedTo))
+
+Generation: 48
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY0: isMarriedTo))
+
+Generation: 49
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY0: isMarriedTo))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY0: isMarriedTo))

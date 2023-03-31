@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="ec.util.BadParameterException"/>
+    <fullyQualifiedTypeName name="main.FloatData"/>
+    <fullyQualifiedTypeName name="main.IntData"/>
+    <fullyQualifiedTypeName name="main.GPRule"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="ec.simple.SimpleFinisher"/>
+    <fullyQualifiedTypeName name="ec.EvolutionState"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+</qualifiedTypeNameHistroy>

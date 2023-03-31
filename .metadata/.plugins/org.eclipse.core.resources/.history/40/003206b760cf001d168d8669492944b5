@@ -1,0 +1,32 @@
+package main;
+
+import ec.EvolutionState;
+import ec.simple.SimpleFinisher;
+
+public class RuleDiscoveryFinisher extends SimpleFinisher{
+	
+	public void finishPopulation(EvolutionState state, int result)
+	{
+		
+		 // RuleManager.WriteFoundRulesToFile();
+		super.finishPopulation(state, result);
+		// clean up the simulations
+		/*for(int simID = 0; simID < state.evalthreads; simID++)
+		{
+			if (simulations[simID] != null)
+			{
+			// clean up simulations[simID] as you wish, then...
+			simulations[simID] == null;
+			}
+		// finally clean up the whole library here
+		}*/
+		
+		// Before exiting... print out any found rules (of all the generations, of all jobs)
+		   RuleManager.RunTimeMeasuresStop();
+		   RuleManager.WriteFoundRulesToFile();
+		   RuleManager.WriteUnderThresholdFoundRulesToFile();
+		   //RuleManager.WriteHistogramToFile();  Only do once, then read in file
+		   RuleManager.InitAndClearFoundRules();
+	}
+
+}

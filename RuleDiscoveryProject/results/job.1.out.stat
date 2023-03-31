@@ -1,0 +1,407 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 12
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 13
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 14
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 15
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 16
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 17
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 18
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 19
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 20
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 21
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 22
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 23
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 24
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 25
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 26
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 27
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 28
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 29
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 30
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 31
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 32
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 33
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 34
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 35
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 36
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 37
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 38
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 39
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 40
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 41
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 42
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 43
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 44
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 45
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 46
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 47
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 48
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Generation: 49
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=1
+Tree 0:
+CHR(HEADB1: isMarriedTo(BODY ( Y , isMarriedTo,  X )))

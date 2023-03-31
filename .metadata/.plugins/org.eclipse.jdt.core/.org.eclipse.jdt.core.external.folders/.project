@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>.org.eclipse.jdt.core.external.folders</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.link1</name>
+			<type>2</type>
+			<location>C:/Users/Gina Grossi/eclipse-workspace/apache-jena-4.7.0/apache-jena-4.7.0/lib-src</location>
+		</link>
+		<link>
+			<name>.link3</name>
+			<type>2</type>
+			<location>C:/Users/Gina Grossi/ecj/ecj/src/main/java/ec/evolve</location>
+		</link>
+	</linkedResources>
+</projectDescription>

@@ -1,0 +1,57 @@
+**********************************************************************************
+ 
+Support Rule:  ?x :diedIn ?y .  ?x :wasBornIn ?y . 
+PCA Support Rule:  ?x :diedIn ?y_1. ?x :wasBornIn ?y . 
+Head Coverage Rule:  ?x :diedIn ?y . 
+support: 1960 PCASupport: 8699 PCA: 0.22531326 PCARatio: 0.22531326 StFit: 0.8431116
+Head support: 22156 Support: 1960 Head Coverage (support/headSupport): 0.08846362
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :diedIn ?y .  ?x :isKnownFor ?y . 
+PCA Support Rule:  ?x :diedIn ?y_1. ?x :isKnownFor ?y . 
+Head Coverage Rule:  ?x :diedIn ?y . 
+support: 19 PCASupport: 1037 PCA: 0.018322082 PCARatio: 0.018322082 StFit: 0.9904102
+Head support: 22156 Support: 19 Head Coverage (support/headSupport): 8.5755554E-4
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :diedIn ?y .  ?x :isLocatedIn ?y . 
+PCA Support Rule:  ?x :diedIn ?y_1. ?x :isLocatedIn ?y . 
+Head Coverage Rule:  ?x :diedIn ?y . 
+support: 240 PCASupport: 1413 PCA: 0.16985138 PCARatio: 0.16985138 StFit: 0.9096582
+Head support: 22156 Support: 240 Head Coverage (support/headSupport): 0.01083228
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :diedIn ?y .  ?x :livesIn ?y . 
+PCA Support Rule:  ?x :diedIn ?y_1. ?x :livesIn ?y . 
+Head Coverage Rule:  ?x :diedIn ?y . 
+support: 267 PCASupport: 919 PCA: 0.29053319 PCARatio: 0.29053319 StFit: 0.8487079
+Head support: 22156 Support: 267 Head Coverage (support/headSupport): 0.012050912
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :diedIn ?y .  ?x :hasChild ?y . 
+PCA Support Rule:  ?x :diedIn ?y_1. ?x :hasChild ?y . 
+Head Coverage Rule:  ?x :diedIn ?y . 
+support: 1 PCASupport: 1738 PCA: 5.75374E-4 PCARatio: 5.75374E-4 StFit: 0.99968976
+Head support: 22156 Support: 1 Head Coverage (support/headSupport): 4.51345E-5
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :diedIn ?y .  ?x :hasChild ?y . 
+PCA Support Rule:  ?x :diedIn ?y_1. ?x :hasChild ?y . 
+Head Coverage Rule:  ?x :diedIn ?y . 
+support: 1 PCASupport: 1738 PCA: 5.75374E-4 PCARatio: 5.75374E-4 StFit: 0.99968976
+Head support: 22156 Support: 1 Head Coverage (support/headSupport): 4.51345E-5
+ 
+**********************************************************************************
+***********************************************************
+Elapsed Time: PT4.0988242S
+***********************************************************

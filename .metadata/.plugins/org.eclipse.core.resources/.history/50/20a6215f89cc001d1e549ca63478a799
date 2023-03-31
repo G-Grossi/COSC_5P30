@@ -1,0 +1,680 @@
+package main;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import ec.EvolutionState;
+import ec.Individual;
+import ec.gp.GPIndividual;
+import ec.gp.GPProblem;
+import ec.gp.koza.KozaFitness;
+import ec.simple.SimpleProblemForm;
+import ec.util.Parameter;
+
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.rdf.model.ResIterator;
+import org.apache.jena.vocabulary.VCARD;
+import org.apache.jena.rdf.model.InfModel;
+import org.apache.jena.rdf.model.Literal;
+import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.RDFNode;
+import org.apache.jena.rdf.model.Statement;
+import org.apache.jena.rdf.model.StmtIterator;
+import org.apache.jena.reasoner.Reasoner;
+import org.apache.jena.reasoner.rulesys.ClauseEntry;
+import org.apache.jena.reasoner.rulesys.GenericRuleReasoner;
+import org.apache.jena.reasoner.rulesys.Rule;
+
+import java.util.List;
+
+import org.apache.jena.query.* ;
+import java.util.Map;
+import java.util.HashMap;
+
+
+
+@SuppressWarnings("serial")
+public class RuleDiscoveryProblem extends GPProblem implements SimpleProblemForm {
+	
+	public static final String P_DATA = "data";
+	/** Variable indices for GP
+	 * 
+	 */
+	public static final int X = 0;
+    public static final int Y = 1;
+    public static final int Z = 2;
+    
+    /** Predicate indices for GP
+     * 
+     */
+    public static final int P_1 = 0;
+    public static final int P_2 = 1;
+    public static final int P_3 = 2;
+    public static final int P_4 = 3;
+    public static final int P_5 = 4;
+    
+    public static final int P_6 = 5;
+    public static final int P_7 = 6;
+    public static final int P_8 = 7;
+    public static final int P_9 = 8;
+    public static final int P_10 = 9;
+    
+    public static final int P_11 = 10;
+    public static final int P_12 = 11;
+    public static final int P_13 = 12;
+    public static final int P_14 = 13;
+    public static final int P_15 = 14;
+    
+    public static final int P_16 = 15;
+    public static final int P_17 = 16;
+    public static final int P_18 = 17;
+    public static final int P_19 = 18;
+    public static final int P_20 = 19;
+    
+    public static final int P_21 = 20;
+    public static final int P_22 = 21;
+    public static final int P_23 = 22;
+    public static final int P_24 = 23;
+    public static final int P_25 = 24;
+    
+    public static final int P_26 = 25;
+    public static final int P_27 = 26;
+    public static final int P_28 = 27;
+    public static final int P_29 = 28;
+    public static final int P_30 = 29;
+    
+    /** Target Predicate indices for GP
+     * 
+     */
+    public static final int TP_1 = 0;
+    public static final int TP_2 = 1;
+    public static final int TP_3 = 2;
+    public static final int TP_4 = 3;
+    public static final int TP_5 = 4;
+    
+	public static final int QUERY_THRESHOLD = 500000;
+	
+    /////////////////////////
+	public float currentX;	
+	public ArrayList<Float> inputX = new ArrayList<Float>();
+	public ArrayList<Float> inputY = new ArrayList<Float>();
+	/////////////////////////////////////////////////////////
+	
+	/** Model to how data set
+	 * 
+	 */
+	Model model = ModelFactory.createDefaultModel();
+	
+	
+	/** Map for predicate name, index into predicates array
+	 * 
+	 */
+	public static Map <String, Integer> predMap = new HashMap<String,Integer>(); 
+	public static Map <String, Integer> targPredMap = new HashMap<String,Integer>(); 
+	
+	/** Possible variables in rules
+	 * 
+	 */
+	public static String[] variables = {"x","y","z"};
+	//public static String[] variables = {"x","y"};
+	
+	/** Possible predicates in rules
+	 * 
+	 */
+	public static final String[] predicates = {
+			"diedIn",
+			"livesIn",
+			"isLocatedIn",
+			"isMarriedTo",
+			"isPoliticianOf",
+			"hasOfficialLanguage",
+			"created", 
+			"directed",
+			"wasBornIn",
+			"isCitizenOf",
+			"hasChild",    
+			"influences",
+			"actedIn",
+			"hasCapital",
+			"hasAcademicAdvisor",
+			"graduatedFrom",
+			"playsFor",
+			"worksAt",
+			"produced",
+			"isLeaderOf",
+			"isKnownFor",
+			 "hasCurrency",
+			"dealsWith",
+		    "isInterestedIn",
+		    "exports",
+		    "imports",
+			"participatedIn",
+			"holdsPoliticalPosition",
+			"isAffiliatedTo",
+			};
+
+	
+	/** Possible target predicates in rules
+	 * 
+	 */
+	/*public static String[] targetPredicates = {
+			"diedIn",
+			"livesIn",
+			"isLocatedIn",
+			"isMarriedTo",
+			"isPoliticianOf",
+			"hasOfficialLanguage",
+			"created", 
+			"directed",
+			"wasBornIn",
+			"isCitizenOf",
+			"hasChild",    
+			"influences",
+			"actedIn",
+			"hasCapital",
+			"hasAcademicAdvisor",
+			"graduatedFrom",
+			"playsFor",
+			"worksAt",
+			"produced",
+			"isLeaderOf",
+			"isKnownFor",
+			 "hasCurrency",
+			"dealsWith",
+		    "isInterestedIn",
+		    "exports",
+		    "imports",
+			"participatedIn",
+			"holdsPoliticalPosition",
+			"isAffiliatedTo",
+			};
+
+	*/
+	
+	
+	
+	/*public static  String[] targetPredicates = {
+			"livesIn",
+			 "created",
+			 "isAffiliatedTo",
+			 "isCitizenOf",
+			 "isLeaderOf",
+			 "hasCurrency",
+			"isMarriedTo",
+			 "isPoliticianOf",
+			 "hasOfficialLanguage",
+			 "directed",
+			 "hasChild", 
+			 "produced",
+			 "worksAt",
+			 "diedIn"
+			};*/
+	
+	// Target Predicates for rules of size 2 found in AMIE https://resources.mpi-inf.mpg.de/yago-naga/amie/data/yago2/amie_yago2_2.html
+	public static  String[] targetPredicates = {
+			 //"isPoliticianOf",
+			 
+			 //"hasOfficialLanguage",
+			//"isAffiliatedTo", 
+			 "livesIn",
+			 //"created",
+			// "isCitizenOf",
+			// "isLeaderOf",
+			 //"isMarriedTo",
+			 //"diedIn"
+			};
+	
+	
+
+	public GPRule ruleToEvaluate;
+	
+
+	public void setup(final EvolutionState state, final Parameter base)
+	{
+		// remember to call super 
+		super.setup(state,base);
+		
+		if(!(input instanceof IntData))
+		{
+			state.output.fatal("GPData class must subclass from " + IntData.class,
+	                base.push(P_DATA), null);
+		}
+		
+		InitData();
+		
+		try {
+			RuleManager.ReadHistogramFromFile();
+		} catch (NumberFormatException | IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		//BuildPredicateHistogram(RuleManager.predicateHistogram,predicates,variables); // Only do once then read in from file
+		//TestRules();
+	
+	}
+	
+	public void evaluate(final EvolutionState state, 
+			final Individual ind,
+			final int subpopulation,
+			final int threadnum)
+	{
+		
+		if(!ind.evaluated)
+		{
+			IntData input = (IntData)(this.input);
+			int hits = 0;
+			int support = 0;
+			int PCASupport = 0;
+			int headSupport = 0;
+			float fitness = 0;
+			float ruleQuality = 0;
+			float expectedResult;
+			float result; 
+			String supportQueryString;
+			String negativeQueryString;
+			String headQueryString;
+			
+			// Evaluate the tree by building a rule
+			((GPIndividual)ind).trees[0].child.eval(state,threadnum, input, stack, ((GPIndividual)ind), this);
+			
+			if(ruleToEvaluate.GetSize() >= 2)
+			{
+				// Set up query strings
+				supportQueryString = ruleToEvaluate.BuildRuleSupportQueryString(targetPredicates,predicates,variables);
+				negativeQueryString = ruleToEvaluate.BuildRuleNegativeQueryString(targetPredicates,predicates, variables);
+				headQueryString = ruleToEvaluate.BuildHeadQueryString(targetPredicates, variables);
+				
+				// Check if the rule has already been processed (queried)
+				GPRule foundRuleAlready = RuleManager.HasAlreadyBeenFound(ruleToEvaluate);
+				if(foundRuleAlready == null)
+				{
+					foundRuleAlready = RuleManager.HasAlreadyBeenFoundUnderThreshold(ruleToEvaluate);
+				}
+				
+				// Check if the rule should be pruned
+				boolean prune =  RuleManager.PruneRule(ruleToEvaluate);
+				//System.out.println(supportQueryString + " Gen: " + state.generation + "Ind: " + ((GPIndividual)ind).hashCode() + "PRUNE: " + prune);
+				if(prune)
+				{
+					// System.out.println(supportQueryString + " Gen: " + state.generation + "Ind: " + ((GPIndividual)ind).hashCode() + "PRUNE: " + prune);
+					//Rules to be pruned get the worst fitness
+					fitness = 1.0f;
+				}
+				else if(foundRuleAlready != null)
+				{
+					// This rule has already been found so lets use the results from last time
+					// NOTE: Good place to add QD measure here.
+					
+					support = foundRuleAlready.GetSupport();
+					PCASupport = foundRuleAlready.GetPCASupport();
+					headSupport = foundRuleAlready.GetHeadSupport();
+					
+					// Store results using cached data for rule
+					ruleToEvaluate.SetSupport(support);
+					ruleToEvaluate.SetPCASupport(PCASupport);
+					ruleToEvaluate.SetHeadSupport(headSupport);
+					ruleToEvaluate.CalculatePCA();
+					/*fitness = 1.0f - ruleToEvaluate.GetPCAConfidence();  // Keep original fitness (not sure if we should make this bad, keep original for now. 
+					if (fitness < 0.01f)
+					{
+						fitness = 0.01f;
+					}
+					if(fitness > 1.0f)
+					{
+						fitness = 1.0f; // should not happen... 
+					}*/
+					
+					ruleQuality = (ruleToEvaluate.GetHeadCoverage() + ruleToEvaluate.GetPCAConfidence())/2.0f;
+					fitness = 1.0f - ruleQuality;
+				
+				}
+				else
+				{
+					// Need to perform a query
+					String headPredStr = "";
+					int predSupport = -1;
+					
+					//System.out.println(supportQueryString);
+				    //System.out.println(negativeQueryString);
+					//System.out.println(headQueryString);
+					
+					// Perform query
+					support = QueryRule(supportQueryString,false);
+					PCASupport = QueryRule(negativeQueryString,false);
+					
+					// Avoid query for head support (use histogram instead)
+				    headPredStr = ruleToEvaluate.GetPredicateString(0,predicates,targetPredicates);
+					predSupport = RuleManager.GetPredicateHistSupport(headPredStr);
+					headSupport = predSupport;
+					if(predSupport == -1)  // predicate not in histogram!!
+					{
+						System.out.println("Cant find histogram support for "+ headQueryString + " !!!!!!!!");
+						headSupport = QueryRule(headQueryString,false);
+					}
+			     	
+					// Store results
+					ruleToEvaluate.SetSupport(support);
+					ruleToEvaluate.SetPCASupport(PCASupport);
+					ruleToEvaluate.SetHeadSupport(headSupport);
+					ruleToEvaluate.CalculatePCA();
+					//ruleToEvaluate.ReportPCA();
+				
+				/*	fitness = 1.0f - ruleToEvaluate.GetPCAConfidence();
+					if (fitness < 0.01f)
+					{
+						fitness = 0.01f;  // never want to have exactly 0 because then it stops
+					}
+					if(fitness > 1.0f)
+					{
+						fitness = 1.0f; // should not happen... 
+					}*/
+					
+					ruleQuality = (ruleToEvaluate.GetHeadCoverage() + ruleToEvaluate.GetPCAConfidence())/2.0f;
+					fitness = 1.0f - ruleQuality;
+				
+					// Check if query surpassed the threshold
+					if(support >= QUERY_THRESHOLD )
+					{
+						fitness = 1.0f;
+					}
+					
+					//if (fitness <= 0.98) 
+					if (fitness < 1.0) 	
+					{	
+						//ruleToEvaluate.ReportPCA();
+						// Add rule to cache if it passes a very low threshold  (1.0 is BAD fitness, 0.0 is GOOD fitness)
+						GPRule possibleRule = ruleToEvaluate.CloneRule();
+						RuleManager.AddRuleToFoundRules(possibleRule);
+						hits++;
+					}
+					else
+					{
+						GPRule possibleRule = ruleToEvaluate.CloneRule();
+						RuleManager.AddRuleToFoundRulesUnderThreshold(possibleRule);
+					}
+				}
+			}
+			else
+			{
+				fitness = 1.0f;
+			}
+			 
+			KozaFitness f = ((KozaFitness)ind.fitness);
+			f.setStandardizedFitness(state, fitness);  
+			f.hits = hits;
+			ind.evaluated = true;
+			
+			// Reset rule for next evaluate
+			ruleToEvaluate.RuleReset();
+		}
+	}
+	
+	
+	public void describe(EvolutionState state, Individual ind, int subpopulation, int threadnum, int log)
+	{
+		super.describe(state,ind,subpopulation,threadnum,log);		
+		// Put any info here to print out after run
+	}
+	
+	/** Init  Data
+	 * 
+	 */
+	private void InitData()
+	{
+		ruleToEvaluate = new GPRule();
+		for(int predIndex = 0;  predIndex < predicates.length; predIndex++)
+		{
+			predMap.put(predicates[predIndex], predIndex );
+		}
+		
+		for(int predIndex = 0;  predIndex < targetPredicates.length; predIndex++)
+		{
+			targPredMap.put(targetPredicates[predIndex], predIndex );
+		}
+		
+		// Read in data set
+		// model.read("yagoFacts.decoded.ttl");
+		model.read("yago2core_facts.ttl");
+		
+		RuleManager.RunTimeMeasuresStart();
+	}
+	
+	/** Test Rules
+	 *  Used to initially test rule system with queries.
+	 */
+	private void TestRules()
+	{
+	
+		/** Create rules variables and query string variables
+		 * 
+		 */
+		GPRule ruleGP1 = new GPRule();
+		GPRule ruleGP2 = new GPRule();
+		GPRule ruleGP3 = new GPRule();
+		GPRule ruleGP4 = new GPRule();
+		GPRule ruleGP5 = new GPRule();
+		
+		String supportQueryString;
+		String negativeQueryString;
+		String headQueryString;
+		
+		
+		int support = 0;
+		int headSupport = 0;
+		int PCASupport = 0;
+		
+		
+		/** Build rules to query
+		 * 
+		 */
+		//RULE1 ?a <diedIn> ?b => ?a <livesIn> ?b
+		ruleGP1.AddAtomToFront(X, predMap.get("diedIn"), Y);
+		ruleGP1.AddAtomToFront(X, targPredMap.get("livesIn"), Y); //head gets added last to put in front of list
+	
+		//RULE2 ?a <diedIn> ?c ?c <isLocatedIn> ?b => ?a <livesIn> ?b
+		ruleGP2.AddAtomToFront(Z, predMap.get("isLocatedIn"), Y);
+		ruleGP2.AddAtomToFront(X, predMap.get("diedIn"), Z);
+		ruleGP2.AddAtomToFront(X, targPredMap.get("livesIn"), Y); //head gets added last to put in front of list
+		
+		 //?a <isMarriedTo> ?c ?c <livesIn> ?b => ?a <livesIn> ?b
+		ruleGP3.AddAtomToFront(Z, predMap.get("livesIn"), Y);
+		ruleGP3.AddAtomToFront(X, predMap.get("isMarriedTo"), Z);
+		ruleGP3.AddAtomToFront(X, targPredMap.get("livesIn"), Y); //head gets added last to put in front of list
+		 
+		 
+	    //RULE3 ?b <isMarriedTo> ?a => ?a <isMarriedTo> ?b
+		/*ruleGP3.AddAtomToFront(Y, predMap.get("isMarriedTo"), X);
+		ruleGP3.AddAtomToFront(X, predMap.get("isMarriedTo"), Y); //head gets added last to put in front of list
+		
+		//RULE4 ?a <diedIn> ?c ?c <isLocatedIn> ?b => ?a <isPoliticianOf> ?b	 
+		ruleGP4.AddAtomToFront(Z, predMap.get("isLocatedIn"), Y);
+		ruleGP4.AddAtomToFront(X, predMap.get("diedIn"), Z);  
+		ruleGP4.AddAtomToFront(X, predMap.get("isPoliticianOf"), Y); //head gets added last to put in front of list
+		
+		 
+		//RULE 5 ?a <isCitizenOf> ?b => ?a <livesIn> ?b
+		//ruleGP5.AddAtomToFront(X, predMap.get("isCitizenOf"), Y);
+		//ruleGP5.AddAtomToFront(X, predMap.get("livesIn"), Y);
+		 
+		 ruleGP5.AddAtomToFront(X, predMap.get("produced"), Y);
+		 ruleGP5.AddAtomToFront(X, targPredMap.get("livesIn"), Y);
+		
+		*/
+		
+		//Build support and negative query strings
+		 
+		//RULE 1 TEST *********************************************************************************************
+		supportQueryString = ruleGP1.BuildRuleSupportQueryString(targetPredicates,predicates,variables);
+		negativeQueryString = ruleGP1.BuildRuleNegativeQueryString(targetPredicates,predicates, variables);
+		headQueryString = ruleGP1.BuildHeadQueryString(targetPredicates, variables);
+		
+		System.out.println(supportQueryString);
+		System.out.println(negativeQueryString);
+		System.out.println(headQueryString);
+		
+		support = QueryRule(supportQueryString,false);
+		PCASupport = QueryRule(negativeQueryString,false);
+		headSupport =  QueryRule(headQueryString,false);
+		
+		ruleGP1.SetSupport(support);
+		ruleGP1.SetHeadSupport(headSupport);
+		ruleGP1.SetPCASupport(PCASupport);
+		ruleGP1.CalculatePCA();
+		ruleGP1.ReportPCA();
+			
+
+		//RULE 2 TEST *********************************************************************************************
+		supportQueryString = ruleGP2.BuildRuleSupportQueryString(targetPredicates,predicates,variables);
+		negativeQueryString = ruleGP2.BuildRuleNegativeQueryString(targetPredicates,predicates, variables);
+		headQueryString = ruleGP2.BuildHeadQueryString(targetPredicates, variables);
+		
+		System.out.println(supportQueryString);
+		System.out.println(negativeQueryString);
+		System.out.println(headQueryString);
+		
+		support = QueryRule(supportQueryString,false);
+		PCASupport = QueryRule(negativeQueryString,false);
+		headSupport =  QueryRule(headQueryString,false);
+		
+		ruleGP2.SetSupport(support);
+		ruleGP2.SetHeadSupport(headSupport);
+		ruleGP2.SetPCASupport(PCASupport);
+		ruleGP2.CalculatePCA();
+		ruleGP2.ReportPCA();
+		
+			
+		//RULE 3 TEST *********************************************************************************************
+		supportQueryString = ruleGP3.BuildRuleSupportQueryString(targetPredicates,predicates,variables);
+		negativeQueryString = ruleGP3.BuildRuleNegativeQueryString(targetPredicates,predicates, variables);
+		headQueryString = ruleGP3.BuildHeadQueryString(targetPredicates, variables);
+		
+		System.out.println(supportQueryString);
+		System.out.println(negativeQueryString);
+		System.out.println(headQueryString);
+		
+		support = QueryRule(supportQueryString,false);
+		PCASupport = QueryRule(negativeQueryString,false);
+		headSupport =  QueryRule(headQueryString,false);
+		
+		ruleGP3.SetSupport(support);
+		ruleGP3.SetHeadSupport(headSupport);
+		ruleGP3.SetPCASupport(PCASupport);
+		ruleGP3.CalculatePCA();
+		ruleGP3.ReportPCA();
+	
+		if(false)
+		{
+			//RULE 4 TEST *********************************************************************************************
+			supportQueryString = ruleGP4.BuildRuleSupportQueryString(targetPredicates,predicates,variables);
+			negativeQueryString = ruleGP4.BuildRuleNegativeQueryString(targetPredicates,predicates, variables);
+			headQueryString = ruleGP4.BuildHeadQueryString(targetPredicates, variables);
+			
+			System.out.println(supportQueryString);
+			System.out.println(negativeQueryString);
+			System.out.println(headQueryString);
+			
+			support = QueryRule(supportQueryString,false);
+			PCASupport = QueryRule(negativeQueryString,false);
+			headSupport =  QueryRule(headQueryString,false);
+			
+			ruleGP4.SetSupport(support);
+			ruleGP4.SetHeadSupport(headSupport);
+			ruleGP4.SetPCASupport(PCASupport);
+			ruleGP4.CalculatePCA();
+			ruleGP4.ReportPCA();
+			
+		
+		
+			//RULE 5 TEST *********************************************************************************************
+			supportQueryString = ruleGP5.BuildRuleSupportQueryString(targetPredicates,predicates,variables);
+			negativeQueryString = ruleGP5.BuildRuleNegativeQueryString(targetPredicates,predicates, variables);
+			headQueryString = ruleGP5.BuildHeadQueryString(targetPredicates, variables);
+			
+			System.out.println(supportQueryString);
+			System.out.println(negativeQueryString);	
+			System.out.println(headQueryString);
+			
+			support = QueryRule(supportQueryString,false);
+			PCASupport = QueryRule(negativeQueryString,false);
+			headSupport =  QueryRule(headQueryString,false);
+			
+			ruleGP5.SetSupport(support);
+			ruleGP5.SetHeadSupport(headSupport);
+			ruleGP5.SetPCASupport(PCASupport);
+			ruleGP5.CalculatePCA();
+			ruleGP5.ReportPCA();
+			}
+
+		
+	}
+	
+	/** Performs a query on the string passed in and returns the count of the query
+	 * 
+	 * @param queryString
+	 * @param printQuery
+	 * @return
+	 */
+	public int QueryRule(String queryString, boolean printQueryResults)
+	{
+		int count = 0;
+		Query query = QueryFactory.create(queryString) ;
+		try (QueryExecution qexec = QueryExecutionFactory.create(query, model)) {
+			ResultSet supportResults = qexec.execSelect() ;
+		
+		    for ( ; supportResults.hasNext() ; )
+		    {
+		      QuerySolution soln = supportResults.nextSolution() ;
+		      if(printQueryResults)
+		    	  System.out.println(soln);
+		      count = count+ 1;
+		      if(count > QUERY_THRESHOLD)
+		      {
+		    	  System.out.println("COUNT " + queryString + " "+ count);
+		    	  break; // AVOID OUT OF MEMORY
+		      }
+		      
+		    }
+		    qexec.close();	
+		}
+		return count;
+	}
+	
+	/**  Builds a predicate histogram file from data set 
+	 *   Do once then save histogram out to a file (See RuleManager)
+	 */	
+	public  void BuildPredicateHistogram(Map <String, Integer> predicateHistogram,String[] predicates, String[] variables)
+	{
+		GPRule ruleGP = new GPRule();
+		
+		for(int predIndex = 0;  predIndex < predicates.length; predIndex++)
+		{
+			String supportQueryString;
+			String predicate = predicates[predIndex];
+			int support = 0;
+			
+			//Build rule to query
+			//RULE ?x <predicate> ?y 
+			ruleGP.AddAtomToFront(RuleDiscoveryProblem.X, predIndex, RuleDiscoveryProblem.Y);
+			
+			supportQueryString = ruleGP.BuildHeadQueryString(predicates,variables);
+
+			support =  QueryRule(supportQueryString,false);
+			
+			if(!predicateHistogram.containsKey(predicate))
+			{
+				predicateHistogram.put(predicate, support );
+			}
+			
+			ruleGP.RuleReset();
+		}
+	
+	}
+	
+
+}

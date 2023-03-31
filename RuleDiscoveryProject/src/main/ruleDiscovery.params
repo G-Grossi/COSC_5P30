@@ -1,0 +1,229 @@
+#parent.0 = koza.params
+
+parent.0 = RuleDiscoveryParentParams.params
+# We have one function set, of class GPFunctionSet
+gp.fs.size = 1
+gp.fs.0 = ec.gp.GPFunctionSet
+# We'll call the function set "f0".
+gp.fs.0.name = f0
+
+# We have five functions in the function set.  They are:
+gp.fs.0.size = 42
+gp.fs.0.func.0 = functions.X
+gp.fs.0.func.0.nc = ncNil
+
+gp.fs.0.func.1 = functions.Y
+gp.fs.0.func.1.nc = ncNil
+
+gp.fs.0.func.2 = functions.BodyAtom
+gp.fs.0.func.2.nc = ncBody_B
+
+gp.fs.0.func.3 = functions.CHR
+gp.fs.0.func.3.nc = ncroot
+
+#Rule Size 3
+#gp.fs.0.func.4 = functions.Head_B_Atom
+#gp.fs.0.func.4.nc = ncHead_B
+
+#Rule Size 2
+gp.fs.0.func.4 = functions.Head_B_Atom1
+gp.fs.0.func.4.nc = ncHead_B1
+
+gp.fs.0.func.5 = functions.P1
+gp.fs.0.func.5.nc = ncNil_P
+
+gp.fs.0.func.6 = functions.P2
+gp.fs.0.func.6.nc = ncNil_P
+
+gp.fs.0.func.7 = functions.P3
+gp.fs.0.func.7.nc = ncNil_P
+
+gp.fs.0.func.8 = functions.P4
+gp.fs.0.func.8.nc = ncNil_P
+
+gp.fs.0.func.9 = functions.P5
+gp.fs.0.func.9.nc = ncNil_P
+
+gp.fs.0.func.10 = functions.P6
+gp.fs.0.func.10.nc = ncNil_P
+
+gp.fs.0.func.11 = functions.P7
+gp.fs.0.func.11.nc = ncNil_P
+
+gp.fs.0.func.12 = functions.P8
+gp.fs.0.func.12.nc = ncNil_P
+
+gp.fs.0.func.13 = functions.P9
+gp.fs.0.func.13.nc = ncNil_P
+
+gp.fs.0.func.14 = functions.P10
+gp.fs.0.func.14.nc = ncNil_P
+
+gp.fs.0.func.15 = functions.P11
+gp.fs.0.func.15.nc = ncNil_P
+
+gp.fs.0.func.16 = functions.P12
+gp.fs.0.func.16.nc = ncNil_P
+
+gp.fs.0.func.17 = functions.P13
+gp.fs.0.func.17.nc = ncNil_P
+
+gp.fs.0.func.18 = functions.P14
+gp.fs.0.func.18.nc = ncNil_P
+
+gp.fs.0.func.19 = functions.P15
+gp.fs.0.func.19.nc = ncNil_P
+
+gp.fs.0.func.20 = functions.P16
+gp.fs.0.func.20.nc = ncNil_P
+
+gp.fs.0.func.21 = functions.P17
+gp.fs.0.func.21.nc = ncNil_P
+
+gp.fs.0.func.22 = functions.P18
+gp.fs.0.func.22.nc = ncNil_P
+
+gp.fs.0.func.23 = functions.P19
+gp.fs.0.func.23.nc = ncNil_P
+
+
+gp.fs.0.func.24 = functions.PRand
+gp.fs.0.func.24.nc = ncNil_P_Rand
+
+gp.fs.0.func.25 = functions.VarRand
+gp.fs.0.func.25.nc = ncNil_Rand
+
+gp.fs.0.func.26 = functions.BodyAtom0
+gp.fs.0.func.26.nc = ncBody_B0
+
+
+gp.fs.0.func.27 = functions.CHR0
+gp.fs.0.func.27.nc = ncroot0
+
+gp.fs.0.func.28 = functions.HeadAtom0
+gp.fs.0.func.28.nc = nchead0
+
+gp.fs.0.func.29 = functions.P20
+gp.fs.0.func.29.nc = ncNil_P
+
+gp.fs.0.func.30 = functions.P21
+gp.fs.0.func.30.nc = ncNil_P
+
+gp.fs.0.func.31 = functions.P22
+gp.fs.0.func.31.nc = ncNil_P
+
+gp.fs.0.func.32 = functions.P23
+gp.fs.0.func.32.nc = ncNil_P
+
+gp.fs.0.func.33 = functions.P24
+gp.fs.0.func.33.nc = ncNil_P
+
+gp.fs.0.func.34 = functions.P25
+gp.fs.0.func.34.nc = ncNil_P
+
+gp.fs.0.func.35 = functions.P26
+gp.fs.0.func.35.nc = ncNil_P
+
+gp.fs.0.func.36 = functions.P27
+gp.fs.0.func.36.nc = ncNil_P
+
+gp.fs.0.func.37 = functions.P28
+gp.fs.0.func.37.nc = ncNil_P
+
+gp.fs.0.func.38 = functions.P29
+gp.fs.0.func.38.nc = ncNil_P
+
+gp.fs.0.func.39 = functions.VarRand3
+gp.fs.0.func.39.nc = ncNil_Rand3
+
+gp.fs.0.func.40 = functions.PRand3
+gp.fs.0.func.40.nc = ncNil_P_Rand3
+
+gp.fs.0.func.41 = functions.Z
+gp.fs.0.func.41.nc = ncNil
+
+#gp.fs.0.func.42 = functions.Head_B_Atom1
+#gp.fs.0.func.42.nc = ncHead_B1
+
+#gp.fs.0.func.41 = functions.Head_S_Atom
+#gp.fs.0.func.41.nc = ncHead_S
+
+#gp.fs.0.func.42 = functions.SingletonCopyAtom
+#gp.fs.0.func.42.nc = ncBody_S
+
+#gp.fs.0.func.43 = functions.SingletonCopyAtom0
+#gp.fs.0.func.43.nc = ncBody_S0
+
+#gp.fs.0.func.7 = functions.Predicate
+#gp.fs.0.func.7.nc = ncNil_P
+#gp.fs.0.func.7 = functions.TP1
+#gp.fs.0.func.7.nc = ncNil_P
+
+eval.problem = main.RuleDiscoveryProblem
+eval.problem.data = main.IntData
+#------------------------------------------------------
+#Defining User Parameters 
+jobs = 3
+
+#------------------------------------------------------
+#Defining GP Parameters 
+
+generations = 50
+
+select.tournament.size = 3
+
+pop.subpop.0.size = 200 
+
+pop.subpop.0.duplicate-retries = 100
+
+pop.subpop.0.species.pipe = ec.breed.MultiBreedingPipeline
+# Koza's decision here was odd...
+pop.subpop.0.species.pipe.generate-max = false
+
+
+# Subsidiary pipelines:
+pop.subpop.0.species.pipe.num-sources = 2
+
+pop.subpop.0.species.pipe.source.0 = ec.gp.koza.MutationPipeline
+#pop.subpop.0.species.pipe.source.0 = ec.gp.breed.MutateOneNodePipeline
+#pop.subpop.0.species.pipe.source.0.source.0 = ec.select.TournamentSelection
+
+pop.subpop.0.species.pipe.source.0.prob = 0.10
+pop.subpop.0.species.pipe.source.1 = ec.gp.koza.CrossoverPipeline
+#pop.subpop.0.species.pipe.source.1.prob = 0.90
+pop.subpop.0.species.pipe.source.1.prob = 0.70
+
+#pop.subpop.0.species.pipe.tries = 1   # try only once to crossover, otherwise return parents
+#pop.subpop.0.species.pipe.maxdepth = 2 # max depth of children for cross over is 2 (do not want heads for cross over) 
+#pop.subpop.0.species.pipe.toss = false  # if true will toss one child from crosover
+#pop.subpop.0.species.pipe.maxsize = 17 # no new tree should be more than 9 nodes
+
+#gp.breed.mutate-one-node.ns.0 = ec.gp.koza.KozaNodeSelector
+#gp.breed.mutate-one-node.tree.0 = 0
+
+
+gp.tree.print-style = c
+gp.tree.c-operators = false
+
+finish = main.RuleDiscoveryFinisher
+
+# output statistics to the file "out.stat" in the directory
+# the run was started in
+#stat = ec.gp.koza.KozaShortStatistics
+#stat.do-size = true
+#stat.do-time = true
+stat.file $out.stat
+
+
+#define the stats to use
+stat.num-children = 1
+
+
+#stat.child.0	  = ec.gp.koza.KozaShortStatistics
+#stat.child.0.file = $out.stat
+
+stat.child.0	  = ec.simple.SimpleShortStatistics
+stat.child.0.file = $outTabular.stat
+#stat.child.0.do-size = true
+
+

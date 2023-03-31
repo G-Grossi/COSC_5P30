@@ -1,0 +1,351 @@
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?x :playsFor ?y . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?x :playsFor ?y . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 0 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?x :graduatedFrom ?y . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?x :graduatedFrom ?y . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 580 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?y :wasBornIn ?x . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?y :wasBornIn ?x . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 0 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?x :worksAt ?y . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?x :worksAt ?y . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 4 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?y :exports ?x . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?y :exports ?x . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 0 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?x :participatedIn ?y . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?x :participatedIn ?y . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 121 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?x :produced ?y . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?x :produced ?y . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 3182 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?y :hasOfficialLanguage ?x . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?y :hasOfficialLanguage ?x . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 0 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?y :isLocatedIn ?x . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?y :isLocatedIn ?x . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 1 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?x :livesIn ?y . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?x :livesIn ?y . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 686 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?y :imports ?x . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?y :imports ?x . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 0 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?y :dealsWith ?x . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?y :dealsWith ?x . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 0 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?y :participatedIn ?x . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?y :participatedIn ?x . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 0 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?x :hasCapital ?y . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?x :hasCapital ?y . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 0 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?y :holdsPoliticalPosition ?x . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?y :holdsPoliticalPosition ?x . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 1 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?y :worksAt ?x . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?y :worksAt ?x . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 0 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?y :playsFor ?x . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?y :playsFor ?x . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 0 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?x :hasCurrency ?y . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?x :hasCurrency ?y . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 0 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?x :dealsWith ?y . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?x :dealsWith ?y . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 0 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?y :hasAcademicAdvisor ?x . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?y :hasAcademicAdvisor ?x . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 18 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?y :isAffiliatedTo ?x . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?y :isAffiliatedTo ?x . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 0 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?x :isPoliticianOf ?y . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?x :isPoliticianOf ?y . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 57 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?y :isCitizenOf ?x . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?y :isCitizenOf ?x . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 0 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?x :isLocatedIn ?y . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?x :isLocatedIn ?y . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 651 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?y :created ?x . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?y :created ?x . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 328 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?y :directed ?x . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?y :directed ?x . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 0 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?y :isLocatedIn ?x . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?y :isLocatedIn ?x . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 1 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?y :isInterestedIn ?x . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?y :isInterestedIn ?x . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 0 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?x :holdsPoliticalPosition ?y . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?x :holdsPoliticalPosition ?y . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 305 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?x :hasAcademicAdvisor ?y . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?x :hasAcademicAdvisor ?y . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 5 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?x :wasBornIn ?y . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?x :wasBornIn ?y . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 2712 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?x :diedIn ?y . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?x :diedIn ?y . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 1397 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?y :hasCapital ?x . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?y :hasCapital ?x . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 0 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?x :exports ?y . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?x :exports ?y . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 0 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?x :hasOfficialLanguage ?y . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?x :hasOfficialLanguage ?y . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 0 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?y :isPoliticianOf ?x . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?y :isPoliticianOf ?x . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 0 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?x :created ?y . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?x :created ?y . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 6736 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?y :livesIn ?x . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?y :livesIn ?x . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 0 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?x :isInterestedIn ?y . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?x :isInterestedIn ?y . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 0 PCASupport: 2 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 11993 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************

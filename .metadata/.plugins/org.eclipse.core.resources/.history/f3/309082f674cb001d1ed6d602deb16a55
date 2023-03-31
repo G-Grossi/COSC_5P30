@@ -1,0 +1,336 @@
+package main;
+import main.GPRule;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.time.Duration;
+import java.time.Instant;
+
+public class RuleManager {
+
+	public static int job = 0;
+	
+	public static Map <String, GPRule> foundRules = new HashMap<String,GPRule>(); 
+	
+	public static Map <String, GPRule> foundRulesUnderThreshold = new HashMap<String,GPRule>(); 
+	
+	public static Map <String, Integer> predicateHistogram = new HashMap<String,Integer>();
+	
+	public static Instant start;
+	public static Instant stop;
+
+	public static void AddRuleToFoundRules(GPRule rule)
+	{
+		String key = rule.GetHeadStr() + rule.GetBodyStr();
+		String reverseBodyKey = rule.GetHeadStr() + rule.GetInvBodyStr();
+		if(!foundRules.containsKey(key))
+		{
+			foundRules.put(key, rule );
+		}
+		
+		if(!foundRules.containsKey(reverseBodyKey))
+		{
+			foundRules.put(reverseBodyKey, rule );
+		}
+	
+	}
+	
+	
+	public static void AddRuleToFoundRulesUnderThreshold(GPRule rule)
+	{
+		String key = rule.GetHeadStr() + rule.GetBodyStr();
+		String reverseBodyKey = rule.GetHeadStr() + rule.GetInvBodyStr();
+		if(!foundRulesUnderThreshold.containsKey(key))
+		{
+			foundRulesUnderThreshold.put(key, rule );
+		}
+		
+		if(!foundRulesUnderThreshold.containsKey(reverseBodyKey))
+		{
+			foundRulesUnderThreshold.put(reverseBodyKey, rule );
+		}
+	
+	}
+	
+	
+	
+	
+	/**
+	 * 
+	 * @param rule to find in cache
+	 * @return processed rule already found and stored in cache
+	 */
+	public static GPRule HasAlreadyBeenFound(GPRule rule)
+	{
+		GPRule foundRule = null;
+		
+		String key = rule.GetHeadStr() + rule.GetBodyStr();
+		
+		if(foundRules.containsKey(key))
+		{
+			foundRule = foundRules.get(key);
+		}
+		
+		return foundRule;
+	}
+	
+	
+	public static GPRule HasAlreadyBeenFoundUnderThreshold(GPRule rule)
+	{
+		GPRule foundRule = null;
+		
+		String key = rule.GetHeadStr() + rule.GetBodyStr();
+		
+		if(foundRulesUnderThreshold.containsKey(key))
+		{
+			foundRule = foundRulesUnderThreshold.get(key);
+		}
+		
+		return foundRule;
+	}
+	
+	
+	public static int GetPredicateHistSupport(String predicate)
+	{
+		int support = -1;
+	
+		if(predicateHistogram.containsKey(predicate))
+		{
+			support = predicateHistogram.get(predicate);
+		}
+		
+		return support;
+	}
+	
+	
+	
+	public static void WriteFoundRulesToFile()
+	{
+		String pathToRawOutputFiles = "C:\\Users\\Gina Grossi\\eclipse-workspace\\GP\\RuleDiscoveryProject\\RuleDiscoveryProject\\RawOutput\\";
+		PrintWriter outRaw;
+		// Set up raw output file for writing evaluations
+		try {
+			outRaw = new PrintWriter(pathToRawOutputFiles+"evaluate"+job+".txt");
+			
+			for (Map.Entry<String, GPRule> entry : foundRules.entrySet()) {
+	            String key = entry.getKey();
+	            GPRule valueRule = entry.getValue();
+	            valueRule.ReportPCAToWriter(outRaw);
+	        }
+			
+			if(start != null && stop !=null)
+			{
+				outRaw.println("***********************************************************");
+				outRaw.println("Elapsed Time: "+ Duration.between(start, stop).toString());
+				outRaw.println("***********************************************************");
+			}
+			
+			if (outRaw != null) {
+		    	outRaw.close();
+		    	outRaw = null;
+		    }
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public static void WriteUnderThresholdFoundRulesToFile()
+	{
+		String pathToRawOutputFiles = "C:\\Users\\Gina Grossi\\eclipse-workspace\\GP\\RuleDiscoveryProject\\RuleDiscoveryProject\\RawOutput\\";
+		PrintWriter outRaw;
+		// Set up raw output file for writing evaluations
+		try {
+			outRaw = new PrintWriter(pathToRawOutputFiles+"evaluateUNDER"+job+".txt");
+			
+			for (Map.Entry<String, GPRule> entry : foundRulesUnderThreshold.entrySet()) {
+	            String key = entry.getKey();
+	            GPRule valueRule = entry.getValue();
+	            valueRule.ReportPCAToWriter(outRaw);
+	        }
+			
+			
+			
+			if (outRaw != null) {
+		    	outRaw.close();
+		    	outRaw = null;
+		    }
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	
+	
+	
+	public static void WriteHistogramToFile()
+	{
+		String pathToRawOutputFiles = "C:\\Users\\Gina Grossi\\eclipse-workspace\\GP\\RuleDiscoveryProject\\RuleDiscoveryProject\\RawOutput\\";
+		PrintWriter outRaw;
+		// Set up raw output file for writing evaluations
+		try {
+			outRaw = new PrintWriter(pathToRawOutputFiles+"histogram.txt");
+			
+			for (Map.Entry<String, Integer> entry : predicateHistogram.entrySet()) {
+	            String key = entry.getKey();
+	            int value = entry.getValue();
+	            outRaw.println(key +" " + value);
+	        }
+	
+			if (outRaw != null) {
+		    	outRaw.close();
+		    	outRaw = null;
+		    }
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	
+	
+	
+	public static void ReadHistogramFromFile() throws NumberFormatException, IOException
+	{
+		
+		try {
+			FileReader file = new FileReader("C:\\Users\\Gina Grossi\\eclipse-workspace\\GP\\RuleDiscoveryProject\\RuleDiscoveryProject\\RawOutput\\histogram.txt");
+		    BufferedReader reader = new BufferedReader(file);
+			
+			String line = "";
+			String[] tokens;
+			int support;
+			String predicateName;
+		
+			while((line = reader.readLine()) != null)
+			{
+			    tokens = line.split(" "); // split line using spaces
+			    predicateName = tokens[0];
+			    support = Integer.parseInt(tokens[1]);
+			    
+				if(!predicateHistogram.containsKey(predicateName))
+				{
+					predicateHistogram.put(predicateName, support );
+				}
+				
+			    
+			    //System.out.println("Predicate: " + predicateName + " Support: " + support);
+			}
+		
+			reader.close();
+		    file.close();
+		}
+		catch(FileNotFoundException e)
+		{
+			e.printStackTrace();
+		}
+	}
+	
+	
+	// Clear each time a new job is started
+	public static void InitAndClearFoundRules()
+	{
+		foundRules.clear();
+		job++;
+	}
+	
+	public static void RunTimeMeasuresStart()
+	{
+		start = Instant.now();
+	}
+	
+	public static void RunTimeMeasuresStop()
+	{
+		stop = Instant.now();
+	}
+	
+	public static boolean PruneRule(GPRule pruneRule)
+	{
+		boolean prune = false;
+		 // Get head
+		Atom head = pruneRule.rule.get(0);
+		   
+		// Look up indices
+		int hSubIdx  = head.GetSIdx();
+		int hPPredIdx = head.GetPIdx();
+		int hObjIdx  = head.GetOIdx();
+		String headPred = RuleDiscoveryProblem.targetPredicates[hPPredIdx];
+		// the the key into the predicate Map
+		int predicateHeadIdx = RuleDiscoveryProblem.predMap.get(headPred);
+		if(pruneRule.rule.size()>=2)
+		{
+			// check if head contains the same exact atom as any of the bodies (same predicate and same variables in same order)
+			for(int i = 1; i < pruneRule.rule.size(); i++ )
+			{
+				Atom body = pruneRule.rule.get(i);
+				   
+				// Look up indices
+				int subIdx  = body.GetSIdx();
+				int predIdx = body.GetPIdx();
+				int objIdx  = body.GetOIdx();
+				
+			     if(predicateHeadIdx == predIdx && hSubIdx == subIdx && hObjIdx == objIdx)
+			     {
+			    	 // EXACT same atom as head so prune this rule
+			    	 prune = true;
+			    	 break;
+			     }
+			     
+			     // If the body atom shares the same subject and object variables this is self referring relation which are not included as part of project
+			     if(subIdx == objIdx)
+			     {
+			    	 prune = true;
+			    	 break;
+			     }
+			     // Check for duplicate bodies (This should be done via a hash map but rules in this project are relatively short)
+			     for(int j = 1;  j < pruneRule.rule.size(); j++)
+			     {
+			    	 if(j != i)
+			    	 {
+			    		Atom nextBody = pruneRule.rule.get(j);   
+						// Look up indices
+						int nextSubIdx  = nextBody.GetSIdx();
+						int nextPredIdx = nextBody.GetPIdx();
+						int nextObjIdx  = nextBody.GetOIdx();
+						 if(nextPredIdx == predIdx && nextSubIdx == subIdx && nextObjIdx == objIdx)
+					     {
+					    	 // EXACT same atom as found in body so prune
+					    	 prune = true;
+					    	 break;
+					     }
+						
+			    	 }
+			     }
+			     if(prune)
+			     {
+			    	 break;
+			     }
+			     
+			}
+			
+			// Check histogram
+			// if rule >=3 check order of join (See GP Rule learning paper). Only use join with threshold of 3....
+			
+		}
+		else
+		{
+			prune = true;
+		}
+		
+		return prune;
+	}
+	
+	
+	
+	
+	
+}

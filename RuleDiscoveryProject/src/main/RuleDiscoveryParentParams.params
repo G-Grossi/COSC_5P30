@@ -1,0 +1,178 @@
+# Copyright 2006 by Sean Luke and George Mason University
+# Licensed under the Academic Free License version 3.0
+# See the file "LICENSE" for more information
+
+#parent.0 = ../../gp/koza/koza.params
+parent.0 = koza.params
+# use a random seed for each run
+seed.0	= time
+#seed.0 = 756924724
+#---------------------------------------------------------------
+#setting the atomic types
+gp.type.a.size = 6
+
+#---------------------------------------------------------------
+#nil - type is entity (int)
+gp.type.a.0.name = nil
+
+#---------------------------------------------------------------
+#nil_p type is predicate (int)
+gp.type.a.1.name = nil_p
+
+#---------------------------------------------------------------
+#body type is  Body Atom
+gp.type.a.2.name = body
+
+#---------------------------------------------------------------
+#single body type (copy rule) is  Single Body Atom  
+gp.type.a.3.name = single_body
+
+#---------------------------------------------------------------
+#head 
+gp.type.a.4.name = head
+
+#---------------------------------------------------------------
+#chr type is root type
+gp.type.a.5.name = root
+
+#---------------------------------------------------------------
+#define the root node return type
+gp.tc.size = 1
+gp.tc.0 = ec.gp.GPTreeConstraints
+gp.tc.0.name = tc0
+gp.tc.0.fset = f0
+gp.tc.0.returns = root
+gp.tc.0.init = ec.gp.koza.HalfBuilder
+
+#---------------------------------------------------------------
+# We set the default for HalfBuilder to be a ramp of 2--6,
+# with a grow probability of 0.5
+gp.koza.half.min-depth = 2
+gp.koza.half.max-depth = 6
+gp.koza.half.growp = 0.5
+
+#---------------------------------------------------------------
+#Define the node type (constraints)
+gp.nc.size = 16
+
+#---------------------------------------------------------------
+#Define the root node constraints
+gp.nc.0 = ec.gp.GPNodeConstraints
+gp.nc.0.name = ncroot
+gp.nc.0.returns = root
+gp.nc.0.size = 1
+gp.nc.0.child.0 = head
+
+
+
+#---------------------------------------------------------------
+#Define the head single body node constraints
+gp.nc.1 = ec.gp.GPNodeConstraints
+gp.nc.1.name = ncHead_S
+gp.nc.1.returns = head
+gp.nc.1.size = 1
+gp.nc.1.child.0 = single_body
+
+#---------------------------------------------------------------
+#define the head body node contraints
+gp.nc.2 = ec.gp.GPNodeConstraints
+gp.nc.2.name = ncHead_B
+gp.nc.2.returns = head
+#Add another body to head
+gp.nc.2.size = 2
+gp.nc.2.child.0 = body
+gp.nc.2.child.1 = body
+
+gp.nc.3 = ec.gp.GPNodeConstraints
+gp.nc.3.name = ncBody_S
+gp.nc.3.returns = single_body
+gp.nc.3.size = 1
+gp.nc.3.child.0 = nil_p
+
+gp.nc.4 = ec.gp.GPNodeConstraints
+gp.nc.4.name = ncBody_B
+gp.nc.4.returns = body
+gp.nc.4.size = 3
+gp.nc.4.child.0 = nil
+gp.nc.4.child.1 = nil_p
+gp.nc.4.child.2 = nil
+
+
+gp.nc.5 = ec.gp.GPNodeConstraints
+gp.nc.5.name = ncNil
+gp.nc.5.returns = nil
+gp.nc.5.size = 0
+
+
+gp.nc.6 = ec.gp.GPNodeConstraints
+gp.nc.6.name = ncNil_P
+gp.nc.6.returns = nil_p
+gp.nc.6.size = 0
+
+
+gp.nc.7 = ec.gp.GPNodeConstraints
+gp.nc.7.name = ncNil_P_Rand
+gp.nc.7.returns = nil_p
+gp.nc.7.size = 2
+gp.nc.7.child.0 = nil_p
+gp.nc.7.child.1 = nil_p
+
+
+gp.nc.8 = ec.gp.GPNodeConstraints
+gp.nc.8.name = ncNil_Rand
+gp.nc.8.returns = nil
+gp.nc.8.size = 2
+gp.nc.8.child.0 = nil
+gp.nc.8.child.1 = nil
+
+
+
+gp.nc.9 = ec.gp.GPNodeConstraints
+gp.nc.9.name = ncBody_B0
+gp.nc.9.returns = body
+gp.nc.9.size = 0
+gp.nc.9.prob = 0.0001
+
+gp.nc.10 = ec.gp.GPNodeConstraints
+gp.nc.10.name = ncBody_S0
+gp.nc.10.returns = single_body
+gp.nc.10.size = 0
+gp.nc.10.prob = 0.0001
+
+gp.nc.11 = ec.gp.GPNodeConstraints
+gp.nc.11.name = ncroot0
+gp.nc.11.returns = root
+gp.nc.11.size = 0
+gp.nc.11.prob = 0.0001
+
+gp.nc.12 = ec.gp.GPNodeConstraints
+gp.nc.12.name = nchead0
+gp.nc.12.returns = head
+gp.nc.12.size = 0
+gp.nc.12.prob = 0.0001
+
+gp.nc.13 = ec.gp.GPNodeConstraints
+gp.nc.13.name = ncNil_P_Rand3
+gp.nc.13.returns = nil_p
+gp.nc.13.size = 3
+gp.nc.13.child.0 = nil_p
+gp.nc.13.child.1 = nil_p
+gp.nc.13.child.2 = nil_p
+
+
+gp.nc.14 = ec.gp.GPNodeConstraints
+gp.nc.14.name = ncNil_Rand3
+gp.nc.14.returns = nil
+gp.nc.14.size = 3
+gp.nc.14.child.0 = nil
+gp.nc.14.child.1 = nil
+gp.nc.14.child.2 = nil
+
+
+gp.nc.15 = ec.gp.GPNodeConstraints
+gp.nc.15.name = ncHead_B1
+gp.nc.15.returns = head
+gp.nc.15.size = 1
+gp.nc.15.child.0 = body
+
+

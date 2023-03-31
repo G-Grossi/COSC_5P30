@@ -1,0 +1,807 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.785370945930481 Adjusted=0.560107692062184 Hits=1
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isPoliticianOf)))
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.785370945930481 Adjusted=0.560107692062184 Hits=1
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isPoliticianOf)))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7737786173820496 Adjusted=0.5637682122225136 Hits=1
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (diedIn(influences(influences, hasCapital), diedIn(wasBornIn, diedIn), PRand(created, isCitizenOf)))))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7737786173820496 Adjusted=0.5637682122225136 Hits=1
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (diedIn(influences(influences, hasCapital), diedIn(wasBornIn, diedIn), PRand(created, isCitizenOf)))))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7737786173820496 Adjusted=0.5637682122225136 Hits=1
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (diedIn(influences(influences, hasCapital), diedIn(wasBornIn, diedIn), PRand(created, isCitizenOf)))))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=1
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf(created, isCitizenOf))))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=1
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf(created, isCitizenOf))))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf(created, isCitizenOf))))
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf(influences(influences, hasCapital), isCitizenOf))))
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=1
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf(created, isCitizenOf))))
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf(influences(influences, hasCapital), isCitizenOf(created, isCitizenOf), isCitizenOf(created, isCitizenOf)))))
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf(created, isCitizenOf))))
+
+Generation: 12
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf(isCitizenOf(diedIn(wasBornIn, diedIn), diedIn(wasBornIn, diedIn), isCitizenOf(created, isCitizenOf)), diedIn(wasBornIn, diedIn), isCitizenOf(created, isCitizenOf)))))
+
+Generation: 13
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 14
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf(created, diedIn(wasBornIn, diedIn), isCitizenOf(created, isCitizenOf)))))
+
+Generation: 15
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf(influences(influences, hasCapital), isCitizenOf, isCitizenOf(isCitizenOf(created, isCitizenOf), isCitizenOf)))))
+
+Generation: 16
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 17
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf(isPoliticianOf, participatedIn, isCitizenOf(created, isCitizenOf)))))
+
+Generation: 18
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 19
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 20
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf(created, isCitizenOf))))
+
+Generation: 21
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 22
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 23
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 24
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 25
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 26
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf(created, isCitizenOf, isCitizenOf(created, isCitizenOf)))))
+
+Generation: 27
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf(created, isCitizenOf))))
+
+Generation: 28
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 29
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 30
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf(influences(influences, hasCapital), isCitizenOf, influences(influences, hasCapital)))))
+
+Generation: 31
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 32
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 33
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 34
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf(influences(influences, hasCapital), isCitizenOf, influences(influences, hasCapital)))))
+
+Generation: 35
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf(influences(influences, hasCapital), isCitizenOf, influences(influences, hasCapital)))))
+
+Generation: 36
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 37
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 38
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 39
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 40
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 41
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 42
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 43
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 44
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 45
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 46
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 47
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 48
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 49
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 50
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 51
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 52
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 53
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 54
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 55
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 56
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 57
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 58
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 59
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 60
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 61
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 62
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 63
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 64
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 65
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 66
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 67
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 68
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 69
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 70
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 71
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 72
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 73
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 74
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 75
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 76
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 77
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 78
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 79
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 80
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 81
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 82
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 83
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 84
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 85
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 86
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 87
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 88
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 89
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 90
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 91
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 92
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 93
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 94
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 95
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 96
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 97
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 98
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Generation: 99
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=0
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf)))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7157671451568604 Adjusted=0.5828296705778085 Hits=1
+Tree 0:
+CHR(HEADS: livesIn(S_BODY (isCitizenOf(created, isCitizenOf))))

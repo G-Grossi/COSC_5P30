@@ -1,0 +1,78 @@
+package functions;
+
+import ec.EvolutionState;
+import ec.Problem;
+import ec.gp.ADFStack;
+import ec.gp.GPData;
+import ec.gp.GPNode;
+import ec.gp.GPIndividual;
+import main.FloatData;
+import main.IntData;
+import main.RuleDiscoveryProblem;
+import java.util.*;
+@SuppressWarnings("serial")
+public class BodyAtom0 extends GPNode{
+	
+	int predicate;
+	int subject;
+	int object;
+	public String toString() {
+		if(predicate != -1)
+		{
+			return  "BODY0: " + RuleDiscoveryProblem.predicates[predicate];
+		}
+		return "BODY0";}
+	public int expectedChildren() {return 0;}
+	
+	  public BodyAtom0()
+		{
+			/*int randValue;
+		Random randomNum = new Random();
+		randValue = randomNum.nextInt(RuleDiscoveryProblem.targetPredicates.length);
+		targePredicate = randValue
+		*/
+		predicate = -1;
+		subject = -1;
+		object = -1;
+		
+	}
+	
+	public void eval(final EvolutionState state,
+			final int thread,
+			final GPData input,
+			final ADFStack stack,
+			final GPIndividual individual,
+			final Problem problem)
+	
+	{
+		
+		Random randomNum = new Random();
+		
+		IntData rd = ((IntData)(input));
+		
+	
+		if(predicate == -1)
+		{
+			predicate = randomNum. nextInt(RuleDiscoveryProblem.predicates.length);
+		}
+		
+		if(subject == -1)
+		{
+			subject = randomNum. nextInt(RuleDiscoveryProblem.variables.length);
+		}
+		
+		if(object == -1)
+		{
+			object = randomNum. nextInt(RuleDiscoveryProblem.variables.length);
+		}
+		
+		//subject = randomNum. nextInt(RuleDiscoveryProblem.variables.length);
+		//predicate = randomNum. nextInt(RuleDiscoveryProblem.predicates.length);
+		//object = randomNum. nextInt(RuleDiscoveryProblem.variables.length);
+		
+	    ((RuleDiscoveryProblem)problem).ruleToEvaluate.AddAtomToFront(subject, predicate, object); 
+	    
+	   
+	}
+
+}

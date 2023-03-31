@@ -1,0 +1,59 @@
+package functions;
+
+import java.util.Random;
+
+import ec.EvolutionState;
+import ec.Problem;
+import ec.gp.ADFStack;
+import ec.gp.GPData;
+import ec.gp.GPNode;
+import ec.gp.GPIndividual;
+import main.FloatData;
+import main.IntData;
+import main.RuleDiscoveryProblem;
+@SuppressWarnings("serial")
+public class SingletonCopyAtom0 extends GPNode{
+	
+	int predicate ;
+	public String toString() {
+		if(predicate != -1)
+		{
+			return  "S_BODY0: " + RuleDiscoveryProblem.predicates[predicate];
+		}
+		return "S_BODY0";}
+	
+    public int expectedChildren() {return 0;}
+	
+    public SingletonCopyAtom0()
+	{
+    	predicate = -1;
+	}
+    
+	public void eval(final EvolutionState state,
+			final int thread,
+			final GPData input,
+			final ADFStack stack,
+			final GPIndividual individual,
+			final Problem problem)
+	
+	{
+		int subject;
+		
+		int object;
+	
+		Random randomNum = new Random();
+		
+		IntData rd = ((IntData)(input));
+		subject = rd.x; // rd.x holds input subject from parent (head)
+		object  = rd.y; // rd.y holds input object from parent (head)
+		
+		if(predicate == -1)
+		{
+			predicate = randomNum. nextInt(RuleDiscoveryProblem.predicates.length);
+		}
+		
+		((RuleDiscoveryProblem)problem).ruleToEvaluate.AddAtomToFront(subject, predicate, object); 
+		
+	}
+
+}
