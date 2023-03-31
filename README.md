@@ -1,7 +1,5 @@
 <p align="center"><img src="https://socialify.git.ci/G-Grossi/COSC_5P30/image?description=1&font=Jost&language=1&name=1&owner=1&pattern=Plus&theme=Light" alt="COSC_5P30" width="640" height="320" /></p>
 
-## COSC 5P30 - Rule Discovery Using a Genetic Program (GP)
-
 ## Rule Discovery with GP
 
 Inspired by AIME[1], this system uses GP to mine Horn rules on the YAGO2 dataset. 
