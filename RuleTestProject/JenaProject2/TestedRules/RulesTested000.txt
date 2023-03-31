@@ -1,0 +1,93 @@
+**********************************************************************************
+ 
+Support Rule:  ?x :isPoliticianOf ?y .  ?x :diedIn ?z . ?z :isLocatedIn ?y . 
+PCA Support Rule:  ?x :isPoliticianOf ?y_1. ?x :diedIn ?z . ?z :isLocatedIn ?y . 
+Head Coverage Rule:  ?x :isPoliticianOf ?y . 
+support: 897 PCASupport: 3335 PCA: 0.2689655 PCARatio: 0.2689655 StFit: 0.7458854
+Head support: 3749 Support: 897 Head Coverage (support/headSupport): 0.2392638
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isAffiliatedTo ?y .  ?x :playsFor ?y . 
+PCA Support Rule:  ?x :isAffiliatedTo ?y_1. ?x :playsFor ?y . 
+Head Coverage Rule:  ?x :isAffiliatedTo ?y . 
+support: 346322 PCASupport: 346325 PCA: 0.99999136 PCARatio: 0.99999136 StFit: 0.08757281
+Head support: 419854 Support: 346322 Head Coverage (support/headSupport): 0.82486296
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :livesIn ?y .  ?x :isCitizenOf ?y . 
+PCA Support Rule:  ?x :livesIn ?y_1. ?x :isCitizenOf ?y . 
+Head Coverage Rule:  ?x :livesIn ?y . 
+support: 2072 PCASupport: 5305 PCA: 0.39057493 PCARatio: 0.39057493 StFit: 0.77008224
+Head support: 29916 Support: 2072 Head Coverage (support/headSupport): 0.0692606
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :created ?y .  ?x :isKnownFor ?y . 
+PCA Support Rule:  ?x :created ?y_1. ?x :isKnownFor ?y . 
+Head Coverage Rule:  ?x :created ?y . 
+support: 12 PCASupport: 108 PCA: 0.11111111 PCARatio: 0.11111111 StFit: 0.94442147
+Head support: 261102 Support: 12 Head Coverage (support/headSupport): 4.5959052E-5
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isCitizenOf ?y .  ?z :isLocatedIn ?y . ?x :isLocatedIn ?z . 
+PCA Support Rule:  ?x :isCitizenOf ?y_1. ?z :isLocatedIn ?y . ?x :isLocatedIn ?z . 
+Head Coverage Rule:  ?x :isCitizenOf ?y . 
+support: 0 PCASupport: 0 PCA: 0.0 PCARatio: 0.0 StFit: 1.0
+Head support: 43561 Support: 0 Head Coverage (support/headSupport): 0.0
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :livesIn ?y .  ?z :livesIn ?y . ?x :isMarriedTo ?z . 
+PCA Support Rule:  ?x :livesIn ?y_1. ?z :livesIn ?y . ?x :isMarriedTo ?z . 
+Head Coverage Rule:  ?x :livesIn ?y . 
+support: 326 PCASupport: 483 PCA: 0.6749482 PCARatio: 0.6749482 StFit: 0.6570773
+Head support: 29916 Support: 326 Head Coverage (support/headSupport): 0.010897179
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :livesIn ?y .  ?x :isLeaderOf ?y . ?x :wasBornIn ?y . 
+PCA Support Rule:  ?x :livesIn ?y_1. ?x :isLeaderOf ?y . ?x :wasBornIn ?y . 
+Head Coverage Rule:  ?x :livesIn ?y . 
+support: 71 PCASupport: 84 PCA: 0.8452381 PCARatio: 0.8452381 StFit: 0.5761943
+Head support: 29916 Support: 71 Head Coverage (support/headSupport): 0.002373312
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :diedIn ?y .  ?x :livesIn ?y . 
+PCA Support Rule:  ?x :diedIn ?y_1. ?x :livesIn ?y . 
+Head Coverage Rule:  ?x :diedIn ?y . 
+support: 524 PCASupport: 2029 PCA: 0.2582553 PCARatio: 0.2582553 StFit: 0.8650528
+Head support: 45021 Support: 524 Head Coverage (support/headSupport): 0.011639013
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isPoliticianOf ?y .  ?x :diedIn ?z . ?x :livesIn ?z . 
+PCA Support Rule:  ?x :isPoliticianOf ?y_1. ?x :diedIn ?z . ?x :livesIn ?z . 
+Head Coverage Rule:  ?x :isPoliticianOf ?y . 
+support: 59 PCASupport: 57 PCA: 1.0 PCARatio: 1.0350877 StFit: 0.49213123
+Head support: 3749 Support: 59 Head Coverage (support/headSupport): 0.01573753
+ 
+**********************************************************************************
+**********************************************************************************
+ 
+Support Rule:  ?x :isMarriedTo ?y .  ?y :isMarriedTo ?x . 
+PCA Support Rule:  ?x :isMarriedTo ?y_1. ?y :isMarriedTo ?x . 
+Head Coverage Rule:  ?x :isMarriedTo ?y . 
+support: 23754 PCASupport: 23754 PCA: 1.0 PCARatio: 1.0 StFit: 8.416176E-5
+Head support: 23758 Support: 23754 Head Coverage (support/headSupport): 0.9998316
+ 
+**********************************************************************************
+***********************************************************
+Elapsed Time: PT5.7094848S
+***********************************************************

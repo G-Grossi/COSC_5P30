@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1676340602696_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1676340602696_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1676340679505_3" label="jena" name="jena">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-shaded-guava" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-iri" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-base" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-arq" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-shacl" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-shex" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-rdfpatch" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-rdfconnection" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-db" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-dboe-base" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-dboe-transaction" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-dboe-index" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-dboe-index-test" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-dboe-trans-data" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-dboe-storage" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-tdb" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-tdb2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/apache-jena-libs" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-text" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-cmds" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-geosparql" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-fuseki" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-fuseki-core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-fuseki-ui" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-fuseki-access" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-fuseki-main" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-fuseki-server" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-fuseki-webapp" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-fuseki-war" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-fuseki-fulljar" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-fuseki-docker" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/apache-jena-fuseki" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-integration-tests" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-fuseki-geosparql" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/apache-jena" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-permissions" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-extras" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-querybuilder" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-commonsrdf" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-serviceenhancer" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-examples" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-jdbc" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-jdbc-core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-jdbc-driver-remote" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-jdbc-driver-tdb" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-jdbc-driver-mem" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jena-jdbc-driver-bundle" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1676340603076_2" label="Window Working Set" name="Aggregate for window 1676340603076"/>
+</workingSetManager>

@@ -1,0 +1,349 @@
+package jenaProject2;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.apache.jena.query.Query;
+import org.apache.jena.query.QueryExecution;
+import org.apache.jena.query.QueryExecutionFactory;
+import org.apache.jena.query.QueryFactory;
+import org.apache.jena.query.QuerySolution;
+import org.apache.jena.query.ResultSet;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
+
+public class RuleTest {
+public static final int QUERY_THRESHOLD = 500000;
+	
+	
+
+	/** Variable indices for GP
+	 * 
+	 */
+	public static final int X = 0;
+    public static final int Y = 1;
+    public static final int Z = 2;
+	
+	/** Possible predicates in rules
+	 * 
+	 */
+	public static final String[] predicates = {
+			"diedIn",
+			"livesIn",
+			"isLocatedIn",
+			"isMarriedTo",
+			"isPoliticianOf",
+			"hasOfficialLanguage",
+			"created", 
+			"directed",
+			"wasBornIn",
+			"isCitizenOf",
+			"hasChild",    
+			"influences",
+			"actedIn",
+			"hasCapital",
+			"hasAcademicAdvisor",
+			"graduatedFrom",
+			"playsFor",
+			"worksAt",
+			"produced",
+			"isLeaderOf",
+			"isKnownFor",
+			 "hasCurrency",
+			"dealsWith",
+		    "isInterestedIn",
+		    "exports",
+		    "imports",
+			"participatedIn",
+			"holdsPoliticalPosition",
+			"isAffiliatedTo",
+			};
+
+	
+	 /** Possible target predicates in rules
+	 * 
+	 */
+	// Target Predicates found in AMIE https://resources.mpi-inf.mpg.de/yago-naga/amie/data/yago2/amie_yago2_2.html
+	public static  String[] targetPredicates = {
+			 //"isPoliticianOf",
+			//"hasCurrency",
+			 //"hasOfficialLanguage",
+			"isAffiliatedTo", 
+			 //"livesIn",
+			 //"created",
+			// "isCitizenOf",
+			// "isLeaderOf",
+			 //"isMarriedTo",
+			 //"diedIn"
+			};
+	
+	/** Model to how data set
+	 * 
+	 */
+	Model model = ModelFactory.createDefaultModel();
+	
+	
+	/** Map for predicate name, index into predicates array
+	 * 
+	 */
+	public static Map <String, Integer> predMap = new HashMap<String,Integer>(); 
+	public static Map <String, Integer> targPredMap = new HashMap<String,Integer>(); 
+	
+	/** Possible variables in rules
+	 * 
+	 */
+	public static String[] variables = {"x","y","z"};
+	
+	public void InitData()
+	{
+		
+		for(int predIndex = 0;  predIndex < predicates.length; predIndex++)
+		{
+			predMap.put(predicates[predIndex], predIndex );
+		}
+		
+		for(int predIndex = 0;  predIndex < targetPredicates.length; predIndex++)
+		{
+			targPredMap.put(targetPredicates[predIndex], predIndex );
+		}
+		
+		// Read in data set
+		 model.read("yagoFacts.decoded.ttl"); // testing 
+		//model.read("yago2core_facts.ttl"); // training
+		
+		
+	}
+	
+	/** Test Rules
+	 *  Used to initially test rule system with queries.
+	 */
+	public  void TestRules()
+	{
+	
+		/** Create rules variables and query string variables
+		 * 
+		 */
+		GPRule ruleGP  = new GPRule();
+		GPRule ruleGP1 = new GPRule();
+		GPRule ruleGP2 = new GPRule();
+		GPRule ruleGP3 = new GPRule();
+		GPRule ruleGP4 = new GPRule();
+		GPRule ruleGP5 = new GPRule();
+		
+		String supportQueryString;
+		String negativeQueryString;
+		String headQueryString;
+		
+		
+		int support = 0;
+		int headSupport = 0;
+		int PCASupport = 0;
+		
+		RuleManager.RunTimeMeasuresStart();
+		
+		
+		
+		ruleGP.AddAtomToFront(X, predMap.get("livesIn"), Y);
+		ruleGP.AddAtomToFront(X, targPredMap.get("diedIn"), Y);
+		
+		//RULE TEST *********************************************************************************************
+		supportQueryString = ruleGP.BuildRuleSupportQueryString(targetPredicates,predicates,variables);
+		negativeQueryString = ruleGP.BuildRuleNegativeQueryString(targetPredicates,predicates, variables);
+		headQueryString = ruleGP.BuildHeadQueryString(targetPredicates, variables);
+		
+		System.out.println(supportQueryString);
+		System.out.println(negativeQueryString);
+		System.out.println(headQueryString);
+		
+		support = QueryRule(supportQueryString,false);
+		PCASupport = QueryRule(negativeQueryString,false);
+		headSupport =  QueryRule(headQueryString,false);
+		
+		ruleGP.SetSupport(support);
+		ruleGP.SetHeadSupport(headSupport);
+		ruleGP.SetPCASupport(PCASupport);
+		ruleGP.CalculatePCA();
+		ruleGP.ReportPCA();
+		
+		RuleManager.AddRuleToFoundRules(ruleGP.CloneRule());
+		ruleGP.RuleReset();
+		
+		
+		
+		
+		/** Build rules to query
+		 * 
+		 */
+		//RULE1 ?a <diedIn> ?b => ?a <livesIn> ?b
+		/*ruleGP1.AddAtomToFront(X, predMap.get("diedIn"), Y);
+		ruleGP1.AddAtomToFront(X, targPredMap.get("livesIn"), Y); //head gets added last to put in front of list
+	
+		//RULE2 ?a <diedIn> ?c ?c <isLocatedIn> ?b => ?a <livesIn> ?b
+		ruleGP2.AddAtomToFront(Z, predMap.get("isLocatedIn"), Y);
+		ruleGP2.AddAtomToFront(X, predMap.get("diedIn"), Z);
+		ruleGP2.AddAtomToFront(X, targPredMap.get("livesIn"), Y); //head gets added last to put in front of list
+		
+		 //?a <isMarriedTo> ?c ?c <livesIn> ?b => ?a <livesIn> ?b
+		ruleGP3.AddAtomToFront(Z, predMap.get("livesIn"), Y);
+		ruleGP3.AddAtomToFront(X, predMap.get("isMarriedTo"), Z);
+		ruleGP3.AddAtomToFront(X, targPredMap.get("livesIn"), Y); //head gets added last to put in front of list
+		 
+		 
+	    //RULE3 ?b <isMarriedTo> ?a => ?a <isMarriedTo> ?b
+		/*ruleGP3.AddAtomToFront(Y, predMap.get("isMarriedTo"), X);
+		ruleGP3.AddAtomToFront(X, predMap.get("isMarriedTo"), Y); //head gets added last to put in front of list
+		
+		//RULE4 ?a <diedIn> ?c ?c <isLocatedIn> ?b => ?a <isPoliticianOf> ?b	 
+		ruleGP4.AddAtomToFront(Z, predMap.get("isLocatedIn"), Y);
+		ruleGP4.AddAtomToFront(X, predMap.get("diedIn"), Z);  
+		ruleGP4.AddAtomToFront(X, predMap.get("isPoliticianOf"), Y); //head gets added last to put in front of list
+		
+		 
+		//RULE 5 ?a <isCitizenOf> ?b => ?a <livesIn> ?b
+		//ruleGP5.AddAtomToFront(X, predMap.get("isCitizenOf"), Y);
+		//ruleGP5.AddAtomToFront(X, predMap.get("livesIn"), Y);
+		 
+		 ruleGP5.AddAtomToFront(X, predMap.get("produced"), Y);
+		 ruleGP5.AddAtomToFront(X, targPredMap.get("livesIn"), Y);
+		
+		*/
+		
+		//Build support and negative query strings
+		 
+		//RULE 1 TEST *********************************************************************************************
+	//	supportQueryString = ruleGP1.BuildRuleSupportQueryString(targetPredicates,predicates,variables);
+	//	negativeQueryString = ruleGP1.BuildRuleNegativeQueryString(targetPredicates,predicates, variables);
+//		headQueryString = ruleGP1.BuildHeadQueryString(targetPredicates, variables);
+		
+//		System.out.println(supportQueryString);
+//		System.out.println(negativeQueryString);
+//		System.out.println(headQueryString);
+		
+/*		support = QueryRule(supportQueryString,false);
+		PCASupport = QueryRule(negativeQueryString,false);
+		headSupport =  QueryRule(headQueryString,false);
+		
+		ruleGP1.SetSupport(support);
+		ruleGP1.SetHeadSupport(headSupport);
+		ruleGP1.SetPCASupport(PCASupport);
+		ruleGP1.CalculatePCA();
+		ruleGP1.ReportPCA();
+			
+
+		//RULE 2 TEST *********************************************************************************************
+		supportQueryString = ruleGP2.BuildRuleSupportQueryString(targetPredicates,predicates,variables);
+		negativeQueryString = ruleGP2.BuildRuleNegativeQueryString(targetPredicates,predicates, variables);
+		headQueryString = ruleGP2.BuildHeadQueryString(targetPredicates, variables);
+		
+		System.out.println(supportQueryString);
+		System.out.println(negativeQueryString);
+		System.out.println(headQueryString);
+		
+		support = QueryRule(supportQueryString,false);
+		PCASupport = QueryRule(negativeQueryString,false);
+		headSupport =  QueryRule(headQueryString,false);
+		
+		ruleGP2.SetSupport(support);
+		ruleGP2.SetHeadSupport(headSupport);
+		ruleGP2.SetPCASupport(PCASupport);
+		ruleGP2.CalculatePCA();
+		ruleGP2.ReportPCA();
+		
+			
+		//RULE 3 TEST *********************************************************************************************
+		supportQueryString = ruleGP3.BuildRuleSupportQueryString(targetPredicates,predicates,variables);
+		negativeQueryString = ruleGP3.BuildRuleNegativeQueryString(targetPredicates,predicates, variables);
+		headQueryString = ruleGP3.BuildHeadQueryString(targetPredicates, variables);
+		
+		System.out.println(supportQueryString);
+		System.out.println(negativeQueryString);
+		System.out.println(headQueryString);
+		
+		support = QueryRule(supportQueryString,false);
+		PCASupport = QueryRule(negativeQueryString,false);
+		headSupport =  QueryRule(headQueryString,false);
+		
+		ruleGP3.SetSupport(support);
+		ruleGP3.SetHeadSupport(headSupport);
+		ruleGP3.SetPCASupport(PCASupport);
+		ruleGP3.CalculatePCA();
+		ruleGP3.ReportPCA();
+	
+		if(false)
+		{
+			//RULE 4 TEST *********************************************************************************************
+			supportQueryString = ruleGP4.BuildRuleSupportQueryString(targetPredicates,predicates,variables);
+			negativeQueryString = ruleGP4.BuildRuleNegativeQueryString(targetPredicates,predicates, variables);
+			headQueryString = ruleGP4.BuildHeadQueryString(targetPredicates, variables);
+			
+			System.out.println(supportQueryString);
+			System.out.println(negativeQueryString);
+			System.out.println(headQueryString);
+			
+			support = QueryRule(supportQueryString,false);
+			PCASupport = QueryRule(negativeQueryString,false);
+			headSupport =  QueryRule(headQueryString,false);
+			
+			ruleGP4.SetSupport(support);
+			ruleGP4.SetHeadSupport(headSupport);
+			ruleGP4.SetPCASupport(PCASupport);
+			ruleGP4.CalculatePCA();
+			ruleGP4.ReportPCA();
+			
+		
+		
+			//RULE 5 TEST *********************************************************************************************
+			supportQueryString = ruleGP5.BuildRuleSupportQueryString(targetPredicates,predicates,variables);
+			negativeQueryString = ruleGP5.BuildRuleNegativeQueryString(targetPredicates,predicates, variables);
+			headQueryString = ruleGP5.BuildHeadQueryString(targetPredicates, variables);
+			
+			System.out.println(supportQueryString);
+			System.out.println(negativeQueryString);	
+			System.out.println(headQueryString);
+			
+			support = QueryRule(supportQueryString,false);
+			PCASupport = QueryRule(negativeQueryString,false);
+			headSupport =  QueryRule(headQueryString,false);
+			
+			ruleGP5.SetSupport(support);
+			ruleGP5.SetHeadSupport(headSupport);
+			ruleGP5.SetPCASupport(PCASupport);
+			ruleGP5.CalculatePCA();
+			ruleGP5.ReportPCA();
+			}
+
+		RuleManager.RunTimeMeasuresStop();
+	}
+	*/
+	}
+	/** Performs a query on the string passed in and returns the count of the query
+	 * 
+	 * @param queryString
+	 * @param printQuery
+	 * @return
+	 */
+	public int QueryRule(String queryString, boolean printQueryResults)
+	{
+		int count = 0;
+		Query query = QueryFactory.create(queryString) ;
+		try (QueryExecution qexec = QueryExecutionFactory.create(query, model)) {
+			ResultSet supportResults = qexec.execSelect() ;
+		
+		    for ( ; supportResults.hasNext() ; )
+		    {
+		      QuerySolution soln = supportResults.nextSolution() ;
+		      if(printQueryResults)
+		    	  System.out.println(soln);
+		      count = count+ 1;
+		      if(count > QUERY_THRESHOLD)
+		      {
+		    	  System.out.println("COUNT " + queryString + " "+ count);
+		    	  break; // AVOID OUT OF MEMORY
+		      }
+		      
+		    }
+		    qexec.close();	
+		}
+		return count;
+	}
+}
