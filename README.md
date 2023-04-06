@@ -10,8 +10,13 @@ livesIn(x,y) <= livesIn(z,y) isMarriedTo(x,z)
 
 isMarriedTo(x,y) <=  isMarriedTo(y,x)
 
-The GP uses confidence scores such as PCA (Partial Completeness Assumption) confidence and Head Coverage from AMIE[1] to measure fitness (quality) of rules discovered. 
+The GP uses confidence scores such as PCA (Partial Completeness Assumption) confidence and Head Coverage from AMIE[1] to measure fitness (quality) of rules discovered.
+The sum of the PCA confidence and HC is used to measure fitness similar to the EDMAR system[]. 
 This repository contains the latest version of this project. 
+
+<p align="center" ><img src="https://imgur.com/26rqKeJ.png" alt="project-screenshot" width="268" height="268/"> </p>
+
+![Model](https://imgur.com/26rqKeJ.png)
 
 ## Running this Project
 
