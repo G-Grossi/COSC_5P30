@@ -56,7 +56,7 @@ Function Package:
 
 ## Requirements for Running the Code in this Project
 
-The following are required to run the code in this project: 
+The following are required to run the code in this project (see links to resources below): 
 * Java >= 8
 * ECJ-27 
 * Apache Jena 4.7.0
