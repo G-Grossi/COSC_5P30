@@ -37,10 +37,11 @@ RuleDiscoveryProject
 
 ## Important Source Code Description
 Main Package:
-* Main.java
-* RuleManager.java   	 
-* RuleDiscoveryProblem.java
+* Main.java: loads the GP parameter files and kicks off the GP Evolve system using ECJ.
+* RuleManager.java: provides processing functions for rules (handles I/O, creating/reading predicate histogram, creating/writing rule cache, rule pruning).
+* RuleDiscoveryProblem.java: central code for this system. Loads dataset for training, defines the target predicate and predicate lists for rule mining, and provides the evaluation function (see evaluate() function) to peform a query on the discovered rule (GP tree) and to calculate the rule's fitness.
 Function Package:
+* Contains GP function sets and terminal sets used to form GP Individuals (GP Tree Node Structures)/
 
 ## Running this Project
 
