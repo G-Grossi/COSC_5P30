@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.apache.jena.rdf.model.Resource"/>
-    <fullyQualifiedTypeName name="org.apache.jena.reasoner.rulesys.GenericRuleReasoner"/>
-    <fullyQualifiedTypeName name="org.apache.jena.rdf.model.Literal"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-</qualifiedTypeNameHistroy>

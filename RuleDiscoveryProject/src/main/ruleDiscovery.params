@@ -22,12 +22,12 @@ gp.fs.0.func.3 = functions.CHR
 gp.fs.0.func.3.nc = ncroot
 
 #Rule Size 3
-#gp.fs.0.func.4 = functions.Head_B_Atom
-#gp.fs.0.func.4.nc = ncHead_B
+gp.fs.0.func.4 = functions.Head_B_Atom
+gp.fs.0.func.4.nc = ncHead_B
 
 #Rule Size 2
-gp.fs.0.func.4 = functions.Head_B_Atom1
-gp.fs.0.func.4.nc = ncHead_B1
+#gp.fs.0.func.4 = functions.Head_B_Atom1
+#gp.fs.0.func.4.nc = ncHead_B1
 
 gp.fs.0.func.5 = functions.P1
 gp.fs.0.func.5.nc = ncNil_P

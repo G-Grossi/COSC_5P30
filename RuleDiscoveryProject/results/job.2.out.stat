@@ -3,405 +3,405 @@ Generation: 0
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9886499047279358 Adjusted=0.5028537188081924 Hits=1
+Fitness: Standardized=0.7827913761138916 Adjusted=0.5609181272683675 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Y ,  Y ,  Z ),  VarRand ( X ,  X ),  VarRand ( Y ,  Z )), hasChild(hasChild(hasChild, worksAt, influences), PRand3(diedIn, dealsWith, playsFor)),  VarRand ( VarRand3 ( Y ,  X ,  Z ),  VarRand ( Y ,  Z )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( X ,  Y ), isKnownFor(isPoliticianOf, isKnownFor),  VarRand ( Z ,  Y )), BODY ( VarRand ( Y ,  Y ), isMarriedTo(directed, directed, isMarriedTo),  VarRand3 ( Y ,  Y ,  Z ))))
 
 Generation: 1
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.7827913761138916 Adjusted=0.5609181272683675 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( X ,  Y ), isKnownFor(isPoliticianOf, isKnownFor),  VarRand ( Z ,  Y )), BODY ( VarRand ( Y ,  Y ), isMarriedTo(directed, directed, isMarriedTo),  VarRand3 ( Y ,  Y ,  Z ))))
 
 Generation: 2
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.7827913761138916 Adjusted=0.5609181272683675 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( X ,  Y ), isKnownFor(isPoliticianOf, isKnownFor),  VarRand ( Z ,  Y )), BODY ( VarRand ( Y ,  Y ), isMarriedTo(directed, directed, isMarriedTo),  VarRand3 ( Y ,  Y ,  Z ))))
 
 Generation: 3
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.7827913761138916 Adjusted=0.5609181272683675 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( X ,  Y ), isKnownFor(isPoliticianOf, isKnownFor),  VarRand ( Z ,  Y )), BODY ( VarRand ( Y ,  Y ), isMarriedTo(directed, directed, isMarriedTo),  VarRand3 ( Y ,  Y ,  Z ))))
 
 Generation: 4
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.7827913761138916 Adjusted=0.5609181272683675 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( X ,  Y ), isKnownFor(isPoliticianOf, isKnownFor),  VarRand ( Z ,  Y )), BODY ( VarRand ( Y ,  Y ), isMarriedTo(directed, directed, isMarriedTo),  VarRand3 ( Y ,  Y ,  Z ))))
 
 Generation: 5
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.522366464138031 Adjusted=0.6568720630391732 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( X ,  Y ), isKnownFor(isPoliticianOf, isKnownFor),  VarRand ( Z ,  Y )), BODY ( VarRand ( Y ,  Y ), isMarriedTo(directed, directed, isMarriedTo),  VarRand ( Z ,  X ))))
 
 Generation: 6
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 7
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 8
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 9
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 10
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 11
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 12
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 13
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 14
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.49916619062423706 Adjusted=0.6670374547224884 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( X ,  Y ), isPoliticianOf(isPoliticianOf, isKnownFor),  VarRand3 ( Z ,  Y ,  X )), BODY ( VarRand ( Y ,  Y ), isMarriedTo(directed, isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)), isMarriedTo),  VarRand ( Z ,  X ))))
 
 Generation: 15
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z ))), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 16
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 17
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 18
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( Z ,  Y ,  Z )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 19
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 20
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 21
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.18805503845214844 Adjusted=0.8417118463660109 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isMarriedTo(directed, directed, isMarriedTo),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 22
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Fitness: Standardized=0.18805503845214844 Adjusted=0.8417118463660109 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand ( Z ,  Y ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand3 ( X ,  Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isMarriedTo(directed, directed, isMarriedTo),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 23
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.18805503845214844 Adjusted=0.8417118463660109 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isMarriedTo(directed, directed, isMarriedTo),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 24
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Fitness: Standardized=0.18805503845214844 Adjusted=0.8417118463660109 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand ( Z ,  Y ), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isMarriedTo(directed, directed, isMarriedTo),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 25
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand ( Z ,  Y ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 26
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( Z ,  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital))), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( Z ,  X ))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 27
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 28
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 29
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 30
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 31
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 32
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( Y , isKnownFor,  X )))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 33
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( Y , isKnownFor,  X )))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 34
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=1
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  Z ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 35
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( Y , isKnownFor,  X )))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 36
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( Y , isKnownFor,  X )))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 37
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( Y , isKnownFor,  X )))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 38
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( Y , isKnownFor,  X )))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 39
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( VarRand3 ( VarRand ( Z ,  Y ),  VarRand ( Z ,  Y ),  VarRand ( X ,  Z )), isKnownFor(PRand(isInterestedIn, isInterestedIn), isKnownFor, hasCapital(hasCapital, hasCapital)),  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 40
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Fitness: Standardized=0.49920785427093506 Adjusted=0.6670189174577797 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( Y , isKnownFor,  VarRand ( VarRand ( Z ,  X ),  VarRand3 ( X ,  Z ,  X )))))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isKnownFor(PRand(isKnownFor, hasOfficialLanguage), isKnownFor(participatedIn, isKnownFor)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 41
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.9502531886100769 Adjusted=0.512753936688953 Hits=0
+Fitness: Standardized=0.18805503845214844 Adjusted=0.8417118463660109 Hits=0
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY ( Y , isKnownFor,  X )))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isMarriedTo(PRand(isKnownFor, hasOfficialLanguage), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 42
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=1
+Fitness: Standardized=0.18805503845214844 Adjusted=0.8417118463660109 Hits=0
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY0: isMarriedTo))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isMarriedTo(PRand(isKnownFor, hasOfficialLanguage), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 43
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=1
+Fitness: Standardized=0.18805503845214844 Adjusted=0.8417118463660109 Hits=0
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY0: isMarriedTo))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isMarriedTo(PRand(isKnownFor, hasOfficialLanguage), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 44
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Fitness: Standardized=0.18805503845214844 Adjusted=0.8417118463660109 Hits=0
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY0: isMarriedTo))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isMarriedTo(PRand(isKnownFor, hasOfficialLanguage), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 45
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=1
+Fitness: Standardized=0.18805503845214844 Adjusted=0.8417118463660109 Hits=0
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY0: isMarriedTo))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isMarriedTo(PRand(isKnownFor, hasOfficialLanguage), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 46
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=1
+Fitness: Standardized=0.18805503845214844 Adjusted=0.8417118463660109 Hits=0
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY0: isMarriedTo))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isMarriedTo(PRand(isKnownFor, hasOfficialLanguage), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 47
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=1
+Fitness: Standardized=0.18805503845214844 Adjusted=0.8417118463660109 Hits=0
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY0: isMarriedTo))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isMarriedTo(PRand(isKnownFor, hasOfficialLanguage), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 48
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=1
+Fitness: Standardized=0.18805503845214844 Adjusted=0.8417118463660109 Hits=0
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY0: isMarriedTo))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isMarriedTo(PRand(isKnownFor, hasOfficialLanguage), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Generation: 49
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=0
+Fitness: Standardized=0.18805503845214844 Adjusted=0.8417118463660109 Hits=0
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY0: isMarriedTo))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isMarriedTo(PRand(isKnownFor, hasOfficialLanguage), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))
 
 Best Individual of Run:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.2595997452735901 Adjusted=0.7939029868434881 Hits=1
+Fitness: Standardized=0.18805503845214844 Adjusted=0.8417118463660109 Hits=1
 Tree 0:
-CHR(HEADB1: isMarriedTo(BODY0: isMarriedTo))
+CHR(HEADB: isMarriedTo(BODY ( VarRand ( VarRand ( Z ,  Y ),  VarRand ( Y ,  Y )), isMarriedTo(directed, directed, isMarriedTo),  VarRand3 ( VarRand3 ( X ,  Y ,  Z ),  VarRand3 ( X ,  Y ,  X ),  VarRand ( X ,  X ))), BODY ( VarRand3 ( VarRand3 ( Z ,  Y ,  X ),  VarRand3 ( Z ,  Y ,  X ),  VarRand ( X ,  Z )), isMarriedTo(PRand(imports, dealsWith), PRand3(wasBornIn, dealsWith, isPoliticianOf), isMarriedTo(directed, directed, isMarriedTo)),  VarRand3 ( VarRand3 ( Y ,  Z ,  X ),  VarRand ( X ,  Y ),  VarRand ( Z ,  Z )))))

@@ -9,12 +9,10 @@ public class Main {
 
 	public static void main(String[] args) {
 	
-		String pathToFiles = "C:\\Users\\Gina Grossi\\eclipse-workspace\\GP\\RuleDiscoveryProject\\RuleDiscoveryProject\\results\\";
+		String pathToFiles = ".\\results\\";
 		int numberOfJobs = 3;
-//		String statisticType = "ec.gp.koza.KozaShortStatistics";
 		String[] runConfig = new String[] {
 				Evolve.A_FILE, "src\\main\\ruleDiscovery.params", 
-//				"-p", ("stat="+statisticType), 
 				"-p", ("stat.file=$"+pathToFiles+"out.stat"), 
 				"-p", ("jobs="+numberOfJobs)
 				};

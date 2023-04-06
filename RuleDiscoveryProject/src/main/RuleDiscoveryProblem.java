@@ -195,12 +195,12 @@ public class RuleDiscoveryProblem extends GPProblem implements SimpleProblemForm
 			"participatedIn",
 			"holdsPoliticalPosition",
 			"isAffiliatedTo",
-			};
-	*/
+			};*/
+	
 
 	// Target Predicates for top rules found in AMIE https://resources.mpi-inf.mpg.de/yago-naga/amie/data/yago2/amie_yago2_2.html
 	public static  String[] targetPredicates = {
-			 //"isPoliticianOf",
+			// "isPoliticianOf",
 			//"hasCurrency",
 			 //"hasOfficialLanguage",
 			//"isAffiliatedTo", 
@@ -440,14 +440,14 @@ public class RuleDiscoveryProblem extends GPProblem implements SimpleProblemForm
 		}
 		
 		// Read in data set
-		// model.read("yagoFacts.decoded.ttl");
-		model.read("yago2core_facts.ttl");
+		// model.read("yagoFacts.decoded.ttl"); // testing data
+		model.read("yago2core_facts.ttl");		// training data
 		
 		RuleManager.RunTimeMeasuresStart();
 	}
 	
 	/** Test Rules
-	 *  Used to initially test rule system with queries.
+	 *  Used to initially test rule system with queries to ensure query strings were correct.
 	 */
 	private void TestRules()
 	{

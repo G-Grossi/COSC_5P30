@@ -129,7 +129,7 @@ public class RuleManager {
 	 */
 	public static void WriteFoundRulesToFile()
 	{
-		String pathToRawOutputFiles = "C:\\Users\\Gina Grossi\\eclipse-workspace\\GP\\RuleDiscoveryProject\\RuleDiscoveryProject\\RawOutput\\";
+		String pathToRawOutputFiles = ".\\RawOutput\\";
 		PrintWriter outRaw;
 		// Set up raw output file for writing evaluations
 		try {
@@ -163,7 +163,7 @@ public class RuleManager {
 	 */
 	public static void WriteUnderThresholdFoundRulesToFile()
 	{
-		String pathToRawOutputFiles = "C:\\Users\\Gina Grossi\\eclipse-workspace\\GP\\RuleDiscoveryProject\\RuleDiscoveryProject\\RawOutput\\";
+		String pathToRawOutputFiles = ".\\RawOutput\\";
 		PrintWriter outRaw;
 		// Set up raw output file for writing evaluations
 		try {
@@ -174,8 +174,6 @@ public class RuleManager {
 	            GPRule valueRule = entry.getValue();
 	            valueRule.ReportPCAToWriter(outRaw);
 	        }
-			
-			
 			
 			if (outRaw != null) {
 		    	outRaw.close();
@@ -194,7 +192,7 @@ public class RuleManager {
 	 */
 	public static void WriteHistogramToFile()
 	{
-		String pathToRawOutputFiles = "C:\\Users\\Gina Grossi\\eclipse-workspace\\GP\\RuleDiscoveryProject\\RuleDiscoveryProject\\RawOutput\\";
+		String pathToRawOutputFiles = ".\\RawOutput\\";
 		PrintWriter outRaw;
 		// Set up raw output file for writing evaluations
 		try {
@@ -227,8 +225,10 @@ public class RuleManager {
 	{
 		
 		try {
-			FileReader file = new FileReader("C:\\Users\\Gina Grossi\\eclipse-workspace\\GP\\RuleDiscoveryProject\\RuleDiscoveryProject\\RawOutput\\histogram.txt");
-		    BufferedReader reader = new BufferedReader(file);
+		
+			FileReader file = new FileReader(".\\RawOutput\\histogram.txt");
+			
+			BufferedReader reader = new BufferedReader(file);
 			
 			String line = "";
 			String[] tokens;
@@ -237,7 +237,7 @@ public class RuleManager {
 		
 			while((line = reader.readLine()) != null)
 			{
-			    tokens = line.split(" "); // split line using spaces
+			    tokens = line.split(" "); // Split line using spaces
 			    predicateName = tokens[0];
 			    support = Integer.parseInt(tokens[1]);
 			    
@@ -246,7 +246,6 @@ public class RuleManager {
 					predicateHistogram.put(predicateName, support );
 				}
 				
-			    
 			    //System.out.println("Predicate: " + predicateName + " Support: " + support);
 			}
 		
@@ -300,12 +299,12 @@ public class RuleManager {
 		int hPPredIdx = head.GetPIdx();
 		int hObjIdx  = head.GetOIdx();
 		String headPred = RuleDiscoveryProblem.targetPredicates[hPPredIdx];
-		// the the key into the predicate Map
+		// The the key into the predicate Map
 		int predicateHeadIdx = RuleDiscoveryProblem.predMap.get(headPred);
 		if(pruneRule.rule.size()>=2)
 		{
 			
-			// check if head contains the same exact atom as any of the bodies (same predicate and same variables in same order)
+			// Check if head contains the same exact atom as any of the bodies (same predicate and same variables in same order)
 			for(int i = 1; i < pruneRule.rule.size(); i++ )
 			{
 				Atom body = pruneRule.rule.get(i);
@@ -315,17 +314,6 @@ public class RuleManager {
 				int predIdx = body.GetPIdx();
 				int objIdx  = body.GetOIdx();
 				
-				
-				// If the rule size is 2 only want to search for rules with X and Y
-				if(pruneRule.rule.size()==2)
-				{
-				    if(subIdx == RuleDiscoveryProblem.Z || objIdx == RuleDiscoveryProblem.Z)
-				    {
-				    	prune = true;
-				    	break;
-				    }
-				}
-				
 			     if(predicateHeadIdx == predIdx && hSubIdx == subIdx && hObjIdx == objIdx)
 			     {
 			    	 // EXACT same atom as head so prune this rule
@@ -333,7 +321,6 @@ public class RuleManager {
 			    	 break;
 			     }
 			     
-			     // If the body atom shares the same subject and object variables this is self referring relation which are not included as part of project
 			     if(subIdx == objIdx)
 			     {
 			    	 prune = true;
@@ -365,8 +352,7 @@ public class RuleManager {
 			     
 			}
 			
-			// Check histogram
-			// if rule >=3 check order of join (See GP Rule learning paper Wu et al. Jan, 2023). Only use join with threshold of 3....
+			// TODO if rule >=3 check order of join (See GP Rule learning paper Wu et al. Jan, 2023). Only use join with max functionality threshold (see paper).
 			
 		}
 		else
