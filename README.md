@@ -32,9 +32,12 @@ The following image shows the steps involved in using a GP to mine rules.
 3 experiments are performed in this project.  The first experiment searches for rules of length 2, the second experiment searches for rules of length 2&3 and the third experiment searches for rules of length 3. The execution time for each training run is tracked and the mean, min, and max averages of all runs for each experiment are shown in the chart below.  It is seen that the efficiency of the GP to mine rules decreases as rule length increases. 
 <p align="center" ><img src="https://github.com/G-Grossi/COSC_5P30/blob/master/RuleDiscoveryProject/Images/LearningTimes.PNG" alt="project-screenshot" width="840" height="627/"> </p>
 
+## Preliminary Results in Testing 
+Due to time restraints only some of the rules discovered were manually chosen for testing. It is seen in the chart below that most rules performed consistently in training and testing. There were some rules of both length 2 and length 3 that did not perform consistently in testing. This shows that rule length does not have an effect on rule quality. Instead it is seent that the components of the fitness measure (either HC or PCA) have an effect on rule quality. However, not enough trained rules were tested and more thorough testing needs to be completed to verify this. 
+
 ## Code Project Description
-RuleDiscoveryProject: used to perform rule mining (using the same YAGO2 training data set that is used in the AMIE[1] system).
-RuleTestProject: used to manually perform testing of rules discovered in testing (using the same YAGO2s testing data set that is used in the AMIE[1] system). 
+*RuleDiscoveryProject: used to perform rule mining (using the same YAGO2 training data set that is used in the AMIE[1] system).
+*RuleTestProject: used to manually perform testing of rules discovered in testing (using the same YAGO2s testing data set that is used in the AMIE[1] system). 
 
 ## Important Source Code Description
 Main Package:
