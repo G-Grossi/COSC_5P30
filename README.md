@@ -16,7 +16,8 @@ This repository contains the latest version of this project.
 
 <p align="center" ><img src="https://imgur.com/26rqKeJ.png" alt="project-screenshot" width="268" height="268/"> </p>
 
-![Model](https://imgur.com/26rqKeJ.png)
+
+![Model](https://github.com/G-Grossi/COSC_5P30/blob/master/RuleDiscoveryProject/Images/GPMethod.PNG)
 
 ## Running this Project
 
