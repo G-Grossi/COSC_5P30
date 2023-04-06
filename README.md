@@ -17,7 +17,7 @@ The sum of the PCA confidence and HC is used to measure fitness (rule quality) s
 
 ## GP Tree Node Structure
 
-A GP individual is formed using a tree node structure.  For example the rule: livesIn(x,y) <= livesIn(z,y) isMarriedTo(x,z) is represented as a GP tree node: 
+Influenced by the EVODA[3] system, this project forms a GP individual using a tree node structure.  For example the rule: livesIn(x,y) <= livesIn(z,y) isMarriedTo(x,z) is represented as a GP tree node: 
 
 <p align="center" ><img src="https://github.com/G-Grossi/COSC_5P30/blob/master/RuleDiscoveryProject/Images/treeExample.PNG" alt="project-screenshot" width="349" height="287/"> </p>
 
@@ -34,23 +34,40 @@ The following image shows the steps involved in using a GP to mine rules.
 
 ## Code Project Description
 RuleDiscoveryProject: used to perform rule mining (using the same YAGO2 training data set that is used in the AMIE[1] system).
-
+RuleTestProject: used to manually perform testing of rules discovered in testing (using the same YAGO2s testing data set that is used in the AMIE[1] system). 
 
 ## Important Source Code Description
 Main Package:
 * Main.java: loads the GP parameter files and kicks off the GP Evolve system using ECJ.
 * RuleManager.java: provides processing functions for rules (handles I/O, creating/reading predicate histogram, creating/writing rule cache, rule pruning).
 * RuleDiscoveryProblem.java: central code for this system. Loads dataset for training, defines the target predicate and predicate lists for rule mining, and provides the evaluation function (see evaluate() function) to peform a query on the discovered rule (GP tree) and to calculate the rule's fitness.
+
 Function Package:
 * Contains GP function sets and terminal sets used to form GP Individuals (GP Tree Node Structures)/
 
-## Running this Project
+## Requirements for Running the Code in this Project
 
-The following is required to run this project: 
+The following are required to run the code in this project: 
 * Java >= 8
 * ECJ-27 
 * Apache Jena 4.7.0
 * IDE for Java such as Eclipse 2022-12
+
+## Steps for Running the Code in this Project (Training)
+* Install all required libraries
+* Download code into an Eclipse workspace direction
+* Review the *.param files to set GP parameters (such as max generations, population size, function sets and terminal sets etc...) See ECJ manual (found at ECJ link) for more details. 
+* Open the RuleDiscoveryProject workspace in Eclipse for training.
+* Set the target predicates in the RuleDiscoveryProblem java class.
+* Set the number of jobs (runs) in the main.java file. 
+* Run the main.java file to start training. 
+* Once training is complete review the job.#.outtabular.stat files to see the fitness values for each generation in each run (found in RuleDiscoveryProject folder). Review the job.#.out.stat files to see examples of GP trees produced in the run (found in results folder). Review the evaluate#.txt files to see the rules found in the run (found in the RawOutput folder).
+
+## Steps for Running the Code in this Project (Testing)
+* Once training is complete, open the RuleTestProject workspace in Eclipse for testing. 
+* In the RuleTest java class TestRules function, manually enter some of the rules found in training to test (see example code in this file).
+* Test results are found in the TesteRules folder within the workspace of the project. 
+
 
 ## Links for Resources
 
