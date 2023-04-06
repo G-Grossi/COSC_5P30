@@ -52,7 +52,7 @@ Main Package:
 * RuleDiscoveryProblem.java: central code for this system. Loads dataset for training, defines the target predicate and predicate lists for rule mining, and provides the evaluation function (see evaluate() function) to peform a query on the discovered rule (GP tree) and to calculate the rule's fitness.
 
 Function Package:
-* Contains GP function sets and terminal sets used to form GP Individuals (GP Tree Node Structures)/
+* Contains GP function sets and terminal sets used to form GP Individuals (GP Tree Node Structures)
 
 ## Requirements for Running the Code in this Project
 
