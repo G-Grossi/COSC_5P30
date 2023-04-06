@@ -14,10 +14,10 @@ The GP uses confidence scores such as PCA (Partial Completeness Assumption) conf
 The sum of the PCA confidence and HC is used to measure fitness similar to the EDMAR system[]. 
 This repository contains the latest version of this project. 
 
-<p align="center" ><img src="https://imgur.com/26rqKeJ.png" alt="project-screenshot" width="268" height="268/"> </p>
+<p align="center" ><img src="https://imgur.com/26rqKeJ.png" alt="project-screenshot" width="349" height="287/"> </p>
 
+<p align="center" ><img src="https://github.com/G-Grossi/COSC_5P30/blob/master/RuleDiscoveryProject/Images/GPMethod.PNG" alt="project-screenshot" width="1440" height="801/"> </p>
 
-![Model](https://github.com/G-Grossi/COSC_5P30/blob/master/RuleDiscoveryProject/Images/GPMethod.PNG)
 
 ## Running this Project
 
