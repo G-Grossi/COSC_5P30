@@ -17,7 +17,7 @@ In this project, the sum (normalized) of the PCA confidence and HC is used to me
 
 ## GP Tree Node Structure
 
-Influenced by the EVODA[3] system, this project forms a GP individual using a tree node structure.  For example the rule: livesIn(x,y) <= livesIn(z,y) isMarriedTo(x,z) is represented as a GP tree node structure where each node is an atom containing a subject, predicate, and object: 
+Influenced by the EVODA[3] system, this project forms a GP individual using a tree node structure.  For example the rule: livesIn(x,y) <= livesIn(z,y) isMarriedTo(x,z) is represented as a GP tree node structure: 
 
 <p align="center" ><img src="https://github.com/G-Grossi/COSC_5P30/blob/master/RuleDiscoveryProject/Images/treeExample.PNG" alt="project-screenshot" width="587" height="319/"> </p>
 
@@ -33,7 +33,7 @@ The following image shows the steps involved in using a GP to mine rules.
 <p align="center" ><img src="https://github.com/G-Grossi/COSC_5P30/blob/master/RuleDiscoveryProject/Images/LearningTimes.PNG" alt="project-screenshot" width="840" height="627/"> </p>
 
 ## Preliminary Results in Testing 
-Due to time constraints, only some of the rules discovered are manually chosen for testing. It is seen in the chart below that most rules performed consistently in training and testing. There were some rules of both length 2 and length 3 that did not perform consistently in testing (not all rules tested are listed in chart below). This shows that rule length does not have an effect on rule quality. Instead it is seen that the components of the fitness measure (either HC or PCA) have an effect on rule quality. However, not enough trained rules are tested and more thorough testing needs to be completed to verify these preliminary results.
+Due to time constraints, only some of the rules discovered are manually chosen for testing. It is seen in the chart below that most rules perform consistently in training and testing. There are some rules of both length 2 and length 3 that do not perform consistently in testing (not all rules tested are listed in chart below). This shows that rule length does not have an effect on rule quality. Instead, it is seen that the components of the fitness measure (either HC or PCA) have an effect on rule quality. However, not enough trained rules are tested and more thorough testing needs to be completed to verify these preliminary results.
 
 
 <p align="center"><img src="https://github.com/G-Grossi/COSC_5P30/blob/master/RuleDiscoveryProject/Images/GeneralDiscovered.PNG" alt="COSC_5P30" width="690" height="205" /></p>
@@ -63,9 +63,9 @@ The following are required to run the code in this project (see links to resourc
 * IDE for Java such as Eclipse 2022-12
 
 ## Steps for Running the Code in this Project (Training)
-* Install all required libraries
-* Download code into an Eclipse workspace direction
-* Review the *.param files to set GP parameters (such as max generations, population size, function sets and terminal sets etc...) See ECJ manual (found at ECJ link) for more details. 
+* Install all required libraries.
+* Download code into an Eclipse workspace directory.
+* Review the *.param files to set GP parameters (such as max generations, population size, function sets, and terminal sets etc...) See ECJ manual (found at ECJ link) for more details. 
 * Open the RuleDiscoveryProject workspace in Eclipse for training.
 * Set the target predicates in the RuleDiscoveryProblem java class.
 * Set the number of jobs (runs) in the main.java file. 
@@ -74,7 +74,7 @@ The following are required to run the code in this project (see links to resourc
 
 ## Steps for Running the Code in this Project (Testing)
 * Once training is complete, open the RuleTestProject workspace in Eclipse for testing. 
-* In the RuleTest java class TestRules function, manually enter some of the rules found in training to test (see example code in this file).
+* In the RuleTest java class "TestRules" function, manually enter some of the rules found in training to test (see example code in this file).
 * Run the main.java file to start testing. 
 * Once testing is complete the test results can be found in the TestRules folder within the workspace of the project. 
 
