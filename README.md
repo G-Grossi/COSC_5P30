@@ -19,13 +19,13 @@ In this project, the sum (normalized) of the PCA confidence and HC is used to me
 
 Influenced by the EVODA[3] system, this project forms a GP individual using a tree node structure.  For example the rule: livesIn(x,y) <= livesIn(z,y) isMarriedTo(x,z) is represented as a GP tree node structure where each node is an atom containing a subject, predicate, and object: 
 
-<p align="center" ><img src="https://github.com/G-Grossi/COSC_5P30/blob/master/RuleDiscoveryProject/Images/treeExample.PNG" alt="project-screenshot" width="349" height="287/"> </p>
+<p align="center" ><img src="https://github.com/G-Grossi/COSC_5P30/blob/master/RuleDiscoveryProject/Images/treeExample.PNG" alt="project-screenshot" width="587" height="319/"> </p>
 
 
 ## GP Rule Mining Method
 The following image shows the steps involved in using a GP to mine rules.
 
-<p align="center" ><img src="https://github.com/G-Grossi/COSC_5P30/blob/master/RuleDiscoveryProject/Images/GPMethod.PNG" alt="project-screenshot" width="1080" height="600/"> </p>
+<p align="center" ><img src="https://github.com/G-Grossi/COSC_5P30/blob/master/RuleDiscoveryProject/Images/GPMethod.PNG" alt="project-screenshot" width="1012" height="552/"> </p>
 
 
 ## Results Showing Rule Mining Efficiency in Training
