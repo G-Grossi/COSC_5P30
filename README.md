@@ -78,6 +78,8 @@ The following are required to run the code in this project (see links to resourc
 * Run the main.java file to start testing. 
 * Once testing is complete the test results can be found in the TestRules folder within the workspace of the project. 
 
+## Demo Video Link
+[Demo Video of Training and Testing](https://drive.google.com/file/d/134SVecbJ3AuTkK871L4-GyVSa7k8DfPT/view?usp=sharing)
 
 ## Links for Resources
 
